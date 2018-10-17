@@ -21,7 +21,7 @@
     "transpile": "babel src -d dist/",
     "copy-metadata": "cp package.json dist/",
     "build": "npm run cleanup && npm run transpile && npm run copy-metadata",
-    "release": "npm run code-quality && npm run build && npm publish"
+    "release": "npm run code-quality && npm run build && npm --prefix dist/ publish"
   },
   "files": [
     "."

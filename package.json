@@ -19,8 +19,8 @@
     "code-quality": "npm run lint && npm run test",
     "cleanup": "rm -rf dist",
     "transpile": "babel src -d dist/",
-    "copy-metadata": "cp package.json dist/",
-    "build": "npm run cleanup && npm run transpile && npm run copy-metadata",
+    "copy-files": "cp package.json README.md LICENSE dist/",
+    "build": "npm run cleanup && npm run transpile && npm run copy-files",
     "release": "npm run code-quality && npm run build && cd dist/ && npm publish"
   },
   "files": [

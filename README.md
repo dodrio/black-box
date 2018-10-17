@@ -8,6 +8,8 @@
 
 > Toolbox for Black Engine.
 
+NOTE: This package is published as ES6 module currently, you need to use Babel or other transpilers.
+
 ## Install
 
 ```

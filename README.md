@@ -4,41 +4,23 @@
 [![Dependency Status](https://img.shields.io/david/m31271n/black-box.svg)](#)
 [![DevDependency Status](https://img.shields.io/david/m31271n/black-box.svg)](#)
 [![Travis Build Status](https://img.shields.io/travis/m31271n/black-box.svg)](#)
-[![NPM Downloads](https://img.shields.io/npm/dm/black-box.svg)](#)
-
+[![NPM Downloads](https://img.shields.io/npm/dm/@m31271n/black-box.svg)](#)
 
 > Toolbox for Black Engine.
 
 ## Install
 
 ```
-$ npm install black-box
+$ npm install @m31271n/black-box
 ```
 
 ## Usage
 
 ```js
-const blackBox = require('black-box');
-
-blackBox('unicorns');
-//=> 'unicorns & rainbows'
+// an example
+import { SceneManager, Scene } from 'black-box'
 ```
 
-## API
+## License
 
-### blackBox(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+[MIT](https://stack.m31271n.com/licenses/MIT.txt) © [m31271n](https://stack.m31271n.com)

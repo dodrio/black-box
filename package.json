@@ -24,7 +24,7 @@
     "release": "npm run code-quality && npm run build && cd dist/ && npm publish"
   },
   "files": [
-    "."
+    "**/*"
   ],
   "main": "index.js",
   "keywords": [

@@ -1,0 +1,14 @@
+---
+root: true
+env:
+  es6: true
+  browser: true
+  node: true
+parserOptions:
+  sourceType: module
+extends:
+  - eslint:recommended
+  - plugin:prettier/recommended
+
+rules:
+  semi: off

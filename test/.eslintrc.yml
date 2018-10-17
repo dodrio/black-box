@@ -1,0 +1,8 @@
+---
+plugins:
+  - ava
+extends:
+  - plugin:ava/recommended
+rules:
+  # disable rules conflict with eslint-plugin-node
+  node/no-unsupported-features: off

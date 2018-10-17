@@ -17,13 +17,16 @@
     "lint": "eslint 'src/**/*.js' 'test/**/*.js'",
     "test": "ava",
     "code-quality": "npm run lint && npm run test",
-    "build": "rm -rf dist && babel src -d dist",
+    "cleanup": "rm -rf dist",
+    "transpile": "babel src -d dist/",
+    "copy-metadata": "cp package.json dist/",
+    "build": "npm run cleanup && npm run transpile && npm run copy-metadata",
     "release": "npm run code-quality && npm run build && npm publish"
   },
   "files": [
-    "dist/"
+    "."
   ],
-  "main": "dist/index.js",
+  "main": "index.js",
   "keywords": [
     ""
   ],

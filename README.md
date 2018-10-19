@@ -6,7 +6,7 @@
 [![Travis Build Status](https://img.shields.io/travis/m31271n/black-box.svg)](#)
 [![NPM Downloads](https://img.shields.io/npm/dm/@m31271n/black-box.svg)](#)
 
-> Toolbox for Black Engine.
+> Toolbox for [Black Engine](https://github.com/MassiveHeights/Black).
 
 NOTE: This package is published as ES6 module currently, you need to use Babel or other transpilers.
 

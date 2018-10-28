@@ -1,4 +1,4 @@
-import { Black, Component } from 'black'
+import { Black, Component } from 'black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 

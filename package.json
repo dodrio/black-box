@@ -30,7 +30,7 @@
     ""
   ],
   "dependencies": {
-    "black": "https://github.com/MassiveHeights/Black.git#v0.6.x-dev"
+    "black-engine": "https://github.com/MassiveHeights/Black.git#v0.6.x-dev"
   },
   "devDependencies": {
     "ava": "^0.25.0",

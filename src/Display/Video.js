@@ -1,4 +1,4 @@
-import { Black, DisplayObject } from 'black'
+import { Black, DisplayObject } from 'black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 

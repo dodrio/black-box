@@ -1,4 +1,4 @@
-import { Component, Graphics, GameObject } from 'black'
+import { Component, Graphics, GameObject } from 'black-engine'
 
 class Bounds extends Component {
   onAdded(gameObject) {

@@ -1,4 +1,4 @@
-import { Tween, Ease } from 'black'
+import { Tween, Ease } from 'black-engine'
 
 class Breath extends Tween {
   constructor({ duration = 1.5, onComplete } = {}) {

@@ -1,4 +1,4 @@
-import { Black, Tween } from 'black'
+import { Black, Tween } from 'black-engine'
 
 class SceneManager {
   constructor() {

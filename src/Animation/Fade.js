@@ -1,4 +1,4 @@
-import { Tween } from 'black'
+import { Tween } from 'black-engine'
 
 const IN = 'in'
 const OUT = 'out'

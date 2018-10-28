@@ -1,47 +1,44 @@
-import { Black, DisplayObject } from 'black-engine'
+import { Black, GameObject } from 'black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 
-class Video extends DisplayObject {
+class Video extends GameObject {
   constructor(src, { id, width, height, loop = false, hide = false } = {}) {
     super()
 
     this.mSrc = src
-
+    this.mId = id
     this.mWidth = width
     this.mHeight = height
-    this.mId = id
     this.mLoop = loop
     this.mHide = hide
 
-    this.mVideo = null
+    this.mVideo = this.createVideoDOM()
+    this.mContainer = null
     this.mPreplayed = false
     // indicate whether video is ready to play
     this.mReady = false
     // record the time point when mReady is true
     this.mReadyTime = 0
-
-    const { containerElement } = Black.instance
-    this.container = containerElement
   }
 
-  onAdded() {
+  createVideoDOM() {
     const video = document.createElement('video')
-    this.mVideo = video
+    video.src = this.mSrc
+
+    // identifier
+    video.className = 'black-video'
+    if (this.mId) video.id = this.mId
 
     // standard adaptation
-    video.src = this.mSrc
     video.style.position = 'absolute'
     video.style.top = '0'
     video.style.left = '0'
     video.style.zIndex = this.mHide
       ? Layer.DOM_DISPLAY_HIDDEN
       : Layer.DOM_DISPLAY
-    video.className = 'video'
-
     if (this.mWidth) video.style.width = `${this.mWidth}px`
     if (this.mHeight) video.style.height = `${this.mHeight}px`
-    if (this.mId) video.id = this.mId
 
     video.loop = this.mLoop
     video.crossorigin = 'anonymous'
@@ -51,16 +48,25 @@ class Video extends DisplayObject {
     // WebKit-based browser adaptation
     video.setAttribute('webkit-playsinline', '')
 
+    return video
+  }
+
+  onAdded() {
+    const { containerElement } = Black.instance
+    this.mContainer = containerElement
+
+    const { mVideo: video } = this
+    this.transformVideo()
+
     video.addEventListener('ended', this.onEnd)
 
-    this.transformVideo()
     this.resizeListener = Black.instance.stage.on(
       'resize',
       this.transformVideo,
       this
     )
 
-    this.container.appendChild(video)
+    this.mContainer.appendChild(video)
   }
 
   onRemoved() {
@@ -70,12 +76,21 @@ class Video extends DisplayObject {
     video.removeEventListener('ended', this.onEnd)
     this.resizeListener.off()
 
-    this.container.removeChild(video)
+    this.mContainer.removeChild(video)
   }
 
   transformVideo() {
-    const { localTransformation: matrix } = this.stage
+    const { localTransformation: matrix } = Black.instance.stage
     transformDOM(this.mVideo, matrix)
+  }
+
+  /**
+   * Unlock video
+   */
+  unlock() {
+    this.mVideo.muted = true
+    this.mVideo.play()
+    this.mVideo.pause()
   }
 
   /**

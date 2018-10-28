@@ -13,7 +13,7 @@ class SceneManager {
     })
   }
 
-  load(name, { sticky = false, transition = true } = {}) {
+  load(name, { sticky = false, transition = true, transitionTime = 1 } = {}) {
     this.cleanup()
     const scene = this.availableScenes.find(s => s.name === name)
 
@@ -26,7 +26,7 @@ class SceneManager {
     if (transition) {
       // a simple transition
       activeScene.alpha = 0
-      activeScene.add(new Tween({ alpha: 1 }, 1))
+      activeScene.add(new Tween({ alpha: 1 }, transitionTime))
     }
 
     Black.stage.addChild(activeScene)

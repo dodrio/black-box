@@ -1,1 +1,1 @@
-export { deafult as VConsole } from 'VConsole'
+export { deafult as Console } from 'Console'

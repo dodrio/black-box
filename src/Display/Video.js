@@ -15,10 +15,6 @@ class Video extends GameObject {
 
     this.mVideo = this.createVideoDOM()
     this.mContainer = null
-    this.mPreplayed = false
-    // indicate whether video is ready to play
-    this.mReady = false
-    // record the time point when mReady is true
     this.mReadyTime = 0
   }
 
@@ -26,7 +22,7 @@ class Video extends GameObject {
     const video = document.createElement('video')
     video.src = this.mSrc
 
-    // identifier
+    // identifiers
     video.className = 'black-video'
     if (this.mId) video.id = this.mId
 
@@ -59,7 +55,6 @@ class Video extends GameObject {
     this.transformVideo()
 
     video.addEventListener('ended', this.onEnd)
-
     this.resizeListener = Black.instance.stage.on(
       'resize',
       this.transformVideo,
@@ -88,27 +83,42 @@ class Video extends GameObject {
    * Unlock video
    */
   unlock() {
-    this.mVideo.muted = true
-    this.mVideo.play()
-    this.mVideo.pause()
+    const { mVideo: video } = this
+    const { paused: isPausedBeforeUnlock } = video
+    video.play()
+    if (isPausedBeforeUnlock) {
+      video.pause()
+    }
   }
 
   /**
    * There are following reasons to preplay video:
    * 1. solve the blinking problem when playing video on Android devices.
    * 2. fetch metadata of video in advance, such as `duration`.
-   *
-   * Preplay the video, then pause at a certain point via onUpdate().
    */
-  preplay() {
-    this.mVideo.muted = true
+  async preplay() {
+    const { mVideo: video } = this
 
-    if (this.mPreplayed) {
-      this.__emitReadyOnce()
-    } else {
-      this.mPreplayed = true
-      this.mVideo.play()
-    }
+    this.mPreplayPromise =
+      this.mPreplayPromise ||
+      new Promise(resolve => {
+        const listener = () => {
+          const { currentTime } = video
+          if (currentTime > 0) {
+            video.removeEventListener('timeupdate', listener)
+            video.pause()
+
+            this.mReadyTime = currentTime
+            this.post('ready')
+            resolve()
+          }
+        }
+        video.addEventListener('timeupdate', listener)
+        video.muted = true
+        video.play()
+      })
+
+    await this.mPreplayPromise
   }
 
   play() {
@@ -122,8 +132,9 @@ class Video extends GameObject {
     this.post('pause')
   }
 
-  resetTimeline() {
+  reset() {
     this.mVideo.currentTime = this.mReadyTime
+    this.post('reset')
   }
 
   onEnd = () => {
@@ -132,37 +143,17 @@ class Video extends GameObject {
 
   show() {
     this.mVideo.style.zIndex = Layer.DOM_DISPLAY
+    this.post('show')
   }
 
   hide() {
     this.mVideo.style.zIndex = Layer.DOM_DISPLAY_HIDDEN
-  }
-
-  __emitReadyOnce() {
-    this.mFlagReadyOnce = true
-  }
-
-  __catchReadyOnce() {
-    if (this.mFlagReadyOnce) {
-      this.mFlagReadyOnce = false
-      this.post('ready')
-    }
+    this.post('hide')
   }
 
   onUpdate() {
-    this.__catchReadyOnce()
-
-    if (!this.mReady && this.mVideo && this.mVideo.currentTime > 0) {
-      this.mReady = true
-      this.mVideo.pause()
-      this.mReadyTime = this.mVideo.currentTime
-      this.post('ready')
-    }
-
-    if (this.mReady && this.mVideo) {
-      const { currentTime } = this.mVideo
-      this.post('progress', { currentTime })
-    }
+    const { currentTime } = this.mVideo
+    this.post('progress', { currentTime })
   }
 
   get duration() {

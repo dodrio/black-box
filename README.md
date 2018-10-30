@@ -7,7 +7,11 @@
 
 > Toolbox for [Black Engine](https://github.com/MassiveHeights/Black).
 
-NOTE: This package is published as ES6 module currently, you need to use Babel or other transpilers.
+## Dependencies
+
+This package is published as ES6 module currently, you need to use Babel or other transpilers.
+
+Moreover, if you use `Debug/Console` you also need `@babel/plugin-syntax-dynamic-import`.
 
 ## Install
 

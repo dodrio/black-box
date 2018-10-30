@@ -15,6 +15,8 @@ class Video extends GameObject {
 
     this.mVideo = this.createVideoDOM()
     this.mContainer = null
+    this.mPreplayPromise = null
+    this.mReady = false
     this.mReadyTime = 0
   }
 
@@ -98,21 +100,31 @@ class Video extends GameObject {
    */
   play() {
     const { mVideo: video } = this
-    return new Promise(resolve => {
-      const listener = () => {
-        const { currentTime } = video
-        if (currentTime > 0) {
-          video.removeEventListener('timeupdate', listener)
-          video.muted = false
-          this.mReadyTime = currentTime
-          this.post('play')
-          resolve()
+
+    if (this.mReady) {
+      this.post('play')
+      return video.play()
+    }
+
+    this.mPreplayPromise =
+      this.mPreplayPromise ||
+      new Promise(resolve => {
+        const listener = () => {
+          const { currentTime } = video
+          if (currentTime > 0) {
+            video.removeEventListener('timeupdate', listener)
+            this.mReady = true
+            this.mReadyTime = currentTime
+            video.muted = false
+            this.post('play')
+            resolve()
+          }
         }
-      }
-      video.addEventListener('timeupdate', listener)
-      video.muted = true
-      video.play()
-    })
+        video.addEventListener('timeupdate', listener)
+        video.muted = true
+        video.play()
+      })
+    return this.mPreplayPromise
   }
 
   pause() {

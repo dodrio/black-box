@@ -92,49 +92,37 @@ class Video extends GameObject {
   }
 
   /**
-   * There are following reasons to preplay video:
+   * There are following reasons to play video beforehand:
    * 1. solve the blinking problem when playing video on Android devices.
    * 2. fetch metadata of video in advance, such as `duration`.
    */
-  async preplay() {
-    const { mVideo: video } = this
-
-    this.mPreplayPromise =
-      this.mPreplayPromise ||
-      new Promise(resolve => {
-        const listener = () => {
-          const { currentTime } = video
-          if (currentTime > 0) {
-            video.removeEventListener('timeupdate', listener)
-            video.pause()
-
-            this.mReadyTime = currentTime
-            this.post('ready')
-            resolve()
-          }
-        }
-        video.addEventListener('timeupdate', listener)
-        video.muted = true
-        video.play()
-      })
-
-    await this.mPreplayPromise
-  }
-
   play() {
-    this.mVideo.muted = false
-    this.mVideo.play()
-    this.post('start')
+    const { mVideo: video } = this
+    return new Promise(resolve => {
+      const listener = () => {
+        const { currentTime } = video
+        if (currentTime > 0) {
+          video.removeEventListener('timeupdate', listener)
+          video.muted = false
+          this.mReadyTime = currentTime
+          this.post('play')
+          resolve()
+        }
+      }
+      video.addEventListener('timeupdate', listener)
+      video.muted = true
+      video.play()
+    })
   }
 
   pause() {
-    this.mVideo.pause()
     this.post('pause')
+    return this.mVideo.pause()
   }
 
   reset() {
-    this.mVideo.currentTime = this.mReadyTime
     this.post('reset')
+    this.mVideo.currentTime = this.mReadyTime
   }
 
   onEnd = () => {

@@ -4,7 +4,7 @@ const IN = 'in'
 const OUT = 'out'
 
 class Fade extends Tween {
-  constructor({ type = IN, duration = 1, onComplete } = {}) {
+  constructor({ type = IN, duration = 1 } = {}, onComplete) {
     if (type === IN) {
       super({ alpha: 1 }, duration)
       this.startValue = 0

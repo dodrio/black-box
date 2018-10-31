@@ -4,12 +4,12 @@ import { Tween as $Tween } from 'black-engine'
 class Tween extends $Tween {
   constructor(...args) {
     super(...args)
-    this.mIsComplete = false
+    this.mIsCompleted = false
   }
 
   onAdded(gameObject) {
     this.on('complete', () => {
-      this.mIsComplete = true
+      this.mIsCompleted = true
     })
 
     super.onAdded(gameObject)
@@ -17,7 +17,7 @@ class Tween extends $Tween {
 
   complete() {
     return new Promise(resolve => {
-      if (this.mIsComplete) {
+      if (this.mIsCompleted) {
         resolve()
       } else {
         this.on('complete', resolve)

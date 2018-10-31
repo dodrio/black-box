@@ -1,4 +1,4 @@
-import { Tween } from 'black-engine'
+import Tween from './Tween'
 
 const IN = 'in'
 const OUT = 'out'
@@ -15,15 +15,10 @@ class Fade extends Tween {
       throw new Error(`[Fade] unknown type - ${type}`)
     }
 
-    this.mIsComplete = false
     this.mOnComplete = onComplete
   }
 
   onAdded(gameObject) {
-    this.on('complete', () => {
-      this.mIsComplete = true
-    })
-
     if (this.mOnComplete) {
       this.on('complete', () => {
         this.mOnComplete()
@@ -32,16 +27,6 @@ class Fade extends Tween {
 
     gameObject.alpha = this.startValue
     super.onAdded()
-  }
-
-  complete() {
-    return new Promise(resolve => {
-      if (this.mIsComplete) {
-        resolve()
-      } else {
-        this.on('complete', resolve)
-      }
-    })
   }
 }
 

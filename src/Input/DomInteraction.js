@@ -3,7 +3,10 @@ import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 
 class DomInteraction extends Component {
-  constructor(callback, { events = ['touchend'], debug = false } = {}) {
+  constructor(
+    callback,
+    { events = ['touchend', 'click'], once = false, debug = false } = {}
+  ) {
     super()
 
     if (!callback || typeof callback !== 'function') {
@@ -12,8 +15,17 @@ class DomInteraction extends Component {
 
     this.mDom = null
     this.mEvents = events
+    this.mOnce = once
+    this.mTriggeredOnce = false
     this.mCallback = callback
     this.mDebug = debug
+  }
+
+  cb = () => {
+    if (this.mOnce && this.mTriggeredOnce) return
+
+    this.mTriggeredOnce = true
+    this.mCallback()
   }
 
   onAdded(gameObject) {
@@ -34,7 +46,7 @@ class DomInteraction extends Component {
     }
 
     this.mEvents.forEach(event => {
-      dom.addEventListener(event, this.mCallback)
+      dom.addEventListener(event, this.cb)
     })
 
     Black.instance.stage.on('resize', this.position, this)
@@ -44,7 +56,7 @@ class DomInteraction extends Component {
     const { containerElement } = Black.instance
 
     this.mEvents.forEach(event => {
-      this.mDom.removeEventListener(event, this.mCallback)
+      this.mDom.removeEventListener(event, this.cb)
     })
 
     containerElement.removeChild(this.mDom)

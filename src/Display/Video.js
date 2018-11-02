@@ -45,6 +45,10 @@ class Video extends GameObject {
 
     // WebKit-based browser adaptation
     video.setAttribute('webkit-playsinline', '')
+    
+    // QQ Browser
+    video.setAttribute('x5-playsinline', '')
+    // video.setAttribute('x5-video-player-type', 'h5')
 
     return video
   }

@@ -15,7 +15,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint 'src/**/*.js' 'test/**/*.js'",
-    "doc": "esdoc",
+    "doc": "npm run update-index && esdoc",
     "test": "ava",
     "code-quality": "npm run lint && npm run test",
     "cleanup": "rm -rf dist",
@@ -39,6 +39,7 @@
     "ava": "^0.25.0",
     "babel-eslint": "^10.0.1",
     "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
     "esdoc-standard-plugin": "^1.0.0",
     "eslint": "^5.2.0",
     "eslint-config-prettier": "^2.9.0",

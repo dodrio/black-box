@@ -30,10 +30,12 @@ function getModules(dir) {
 
 function updateIndex(dir) {
   const modules = getModules(dir)
+  const imports = []
   const exports = []
   const exportDefault = []
   modules.forEach(modulePath => {
     const moduleName = removeSuffix(modulePath)
+    imports.push(`import ${moduleName} from './${moduleName}'`)
     exports.push(`export { default as ${moduleName} } from './${moduleName}'`)
     exportDefault.push(`  ${moduleName}`)
 
@@ -43,9 +45,10 @@ function updateIndex(dir) {
   })
 
   const entry = path.join(dir, 'index.js')
-  const $exports = `${join(exports, '\n')}`
-  const $exportDefault = `\nexport default {\n${join(exportDefault, ',\n')}}\n`
-  fs.writeFileSync(entry, `${$exports}${$exportDefault}`)
+  const $imports = `${join(imports, '\n')}\n`
+  const $exports = `${join(exports, '\n')}\n`
+  const $exportDefault = `export default {\n${join(exportDefault, ',\n')}}\n`
+  fs.writeFileSync(entry, `${$imports}${$exports}${$exportDefault}`)
 }
 
 const srcDir = path.resolve(__dirname, '../src')

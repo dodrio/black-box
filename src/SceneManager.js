@@ -1,11 +1,56 @@
 import { Black, Tween } from 'black-engine'
 
+/**
+ * Manager of Scenes.
+ *
+ * @example
+ * // default instance of SceneManager.
+ * const { default: sceneManager } = SceneManager
+ *
+ * // register scenes
+ * sceneManager.register('preloader', Preloader)
+ * sceneManager.register('playground', Playground)
+ *
+ * class Game extends GameObject {
+ *   constructor() {
+ *     super()
+ *     sceneManager.load('preloader')
+ *   }
+ * }
+ *
+ * class Preloader extends Scene {
+ *   onAdded() {
+ *     // ...
+ *     sceneManager.load('playground')
+ *   }
+ * }
+ *
+ * class Playground extends Scene {
+ *   onAdded() {
+ *     // ...
+ *   }
+ * }
+ */
 class SceneManager {
   constructor() {
+    /**
+     * Store all registered scenes.
+     * @access private
+     */
     this.availableScenes = []
+
+    /**
+     * Store all loaded scenes.
+     * @access private
+     */
     this.activeScenes = []
   }
 
+  /**
+   * Register a scene.
+   * @param {string} name name of scene
+   * @param {Scene} Class subclass of {@link Scene}
+   */
   register(name, Class) {
     this.availableScenes.push({
       name,
@@ -13,6 +58,17 @@ class SceneManager {
     })
   }
 
+  /**
+   * Load scene which is already registered. This method will remove all scenes
+   * which aren't sticky.
+   *
+   * @param {string} name name of scene
+   * @param {Object} options
+   * @param {boolean} options.sticky scene will not be removed unless you unload
+   *                                 it explicitly
+   * @param {boolean} options.transition enable transition when switching scene
+   * @param {number} options.transitionTime transition's duration, unit in seconds
+   */
   load(name, { sticky = false, transition = true, transitionTime = 1 } = {}) {
     this.cleanup()
     const scene = this.availableScenes.find(s => s.name === name)
@@ -32,7 +88,10 @@ class SceneManager {
     Black.stage.addChild(activeScene)
   }
 
-  // cleanup useless actived scenes
+  /**
+   * Cleanup useless actived scenes
+   * @access private
+   */
   cleanup() {
     this.activeScenes = this.activeScenes.filter(scene => {
       if (scene.sticky) {
@@ -44,6 +103,10 @@ class SceneManager {
     })
   }
 
+  /**
+   * Unload a scene by name explicitly.
+   * @param {string} name name of scene
+   */
   unload(name) {
     const index = this.activeScenes.findIndex(s => s.name === name)
     if (index >= 0) {
@@ -53,7 +116,11 @@ class SceneManager {
     }
   }
 
-  findActive(name) {
+  /**
+   * Find a loaded scene by name.
+   * @param {string} name name of a loaded scene
+   */
+  find(name) {
     const scene = this.activeScenes.find(s => s.name === name)
     return scene
   }

@@ -15,11 +15,13 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint 'src/**/*.js' 'test/**/*.js'",
+    "doc": "esdoc",
     "test": "ava",
     "code-quality": "npm run lint && npm run test",
     "cleanup": "rm -rf dist",
+    "update-index": "./scripts/update-index.js",
     "copy-files": "mkdir -p dist && cp -r src/* package.json README.md LICENSE dist/",
-    "build": "npm run cleanup && npm run copy-files",
+    "build": "npm run cleanup && npm run update-index && npm run copy-files",
     "release": "npm run code-quality && npm run build && cd dist/ && npm publish"
   },
   "files": [

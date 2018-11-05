@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../../">
+  <title data-ice="title">src/Display/Bounds.js | @m31271n/black-box</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Toolbox for Black Engine."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@m31271n/black-box"><meta property="twitter:description" content="Toolbox for Black Engine."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/m31271n/black-box"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/AssetManager.js~AssetManager.html">AssetManager</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Scene.js~Scene.html">Scene</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/SceneManager.js~SceneManager.html">SceneManager</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#animation">Animation</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Animation/Breath.js~Breath.html">Breath</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Animation/Ease.js~Ease.html">Ease</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Animation/Fade.js~Fade.html">Fade</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Animation/Tween.js~Tween.html">Tween</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#debug">Debug</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Debug/Console.js~Console.html">Console</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#display">Display</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Display/Bounds.js~Bounds.html">Bounds</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Display/Video.js~Video.html">Video</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#input">Input</a><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Input/DomInteraction.js~DomInteraction.html">DomInteraction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea.html">MinimalInteractiveArea</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Input/NativeInteraction.js~NativeInteraction.html">NativeInteraction</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Input/ScaleButton.js~ScaleButton.html">ScaleButton</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Input/SoundButton.js~SoundButton.html">SoundButton</a></span></span></li>
+<li data-ice="doc"><a data-ice="dirPath" class="nav-dir-path" href="identifiers.html#helper">helper</a><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-transformDOM">transformDOM</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Display/Bounds.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import { Component, Graphics, GameObject } from &apos;black-engine&apos;
+
+/**
+ * Add visible bounds for an existing GameObject.
+ *
+ * @example
+ * const bounds = new Bounds()
+ * gameObject.addComponent(bounds)
+ */
+class Bounds extends Component {
+  /**
+   * @ignore
+   */
+  onAdded(gameObject) {
+    const { parent } = gameObject
+
+    this.topLeft = this.makeIndicator(0)
+    this.topRight = this.makeIndicator(Math.PI * 0.5)
+    this.bottomLeft = this.makeIndicator(Math.PI * 1.5)
+    this.bottomRight = this.makeIndicator(Math.PI)
+    parent.add(this.topLeft)
+    parent.add(this.topRight)
+    parent.add(this.bottomLeft)
+    parent.add(this.bottomRight)
+
+    this.placeIndicator()
+  }
+
+  /**
+   * @ignore
+   */
+  onRemoved() {
+    this.topLeft.removeFromParent()
+    this.topRight.removeFromParent()
+    this.bottomLeft.removeFromParent()
+    this.bottomRight.removeFromParent()
+  }
+
+  /**
+   * @ignore
+   */
+  onUpdate() {
+    this.placeIndicator()
+  }
+
+  /**
+   * @ignore
+   */
+  placeIndicator() {
+    // get the bounds relative to sprite&apos;s parent with all children
+    const bounds = this.gameObject.getBounds(null, true)
+    const { left, right, top, bottom } = bounds
+    this.topLeft.x = left
+    this.topLeft.y = top
+    this.topRight.x = right
+    this.topRight.y = top
+    this.bottomLeft.x = left
+    this.bottomLeft.y = bottom
+    this.bottomRight.x = right
+    this.bottomRight.y = bottom
+  }
+
+  /**
+   * @ignore
+   */
+  makeIndicator(rotation = 0) {
+    const color = 0xf9b626
+    const cross = new GameObject()
+
+    const g1 = new Graphics()
+    g1.beginPath()
+    g1.fillStyle(color)
+    g1.lineStyle(1, color)
+    g1.rect(0, 0, 4, 20)
+    g1.stroke()
+    g1.fill()
+    cross.add(g1)
+
+    const g2 = new Graphics()
+    g2.beginPath()
+    g2.fillStyle(color)
+    g2.lineStyle(1, color)
+    g2.rect(0, 0, 20, 4)
+    g2.stroke()
+    g2.fill()
+    cross.add(g2)
+
+    cross.alignPivot()
+    cross.rotation = rotation
+    return cross
+  }
+}
+
+export default Bounds
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

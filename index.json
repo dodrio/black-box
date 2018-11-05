@@ -1,0 +1,3322 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Animation/Breath.js",
+    "content": "import { Tween, Ease } from 'black-engine'\n\n/**\n * A common animation - breath.\n *\n * @example\n * const breath = new Breath({ duration: 2 })\n * gameObject.addComponent(breath)\n *\n * // 10 seconds later\n * breath.end()\n */\nclass Breath extends Tween {\n  /**\n   * @param {Object} args\n   * @param {number} [args.duration=1.5] duration of animation\n   * @param {function} onComplete callback will be called when animation is completed\n   */\n  constructor({ duration = 1.5 } = {}, onComplete) {\n    super({ alpha: 1 }, duration, {\n      yoyo: true,\n      loop: true,\n      ease: Ease.cubicInOut,\n    })\n\n    /**\n     * @private\n     */\n    this.mOnComplete = onComplete\n  }\n\n  /**\n   * @ignore\n   */\n  onAdded(gameObject) {\n    gameObject.alpha = 0\n    gameObject.completeAnimation = this.complete\n\n    super.onAdded()\n  }\n\n  /**\n   * End the animation by playing the remaining animations. Or, it will be\n   * awkward with a breaking animation.\n   */\n  end = () => {\n    if (this.mOnComplete) {\n      this.on('complete', this.mOnComplete)\n    }\n\n    this.pause()\n    this.loop = false\n    this.repeats = this.mIsYoyoBack ? 0 : 1\n    this.play()\n  }\n}\n\nexport default Breath\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Animation/Breath.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "class",
+    "name": "Breath",
+    "memberof": "src/Animation/Breath.js",
+    "static": true,
+    "longname": "src/Animation/Breath.js~Breath",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Animation/Breath.js",
+    "importStyle": "Breath",
+    "description": "A common animation - breath.",
+    "examples": [
+      "const breath = new Breath({ duration: 2 })\ngameObject.addComponent(breath)\n\n// 10 seconds later\nbreath.end()"
+    ],
+    "lineNumber": 13,
+    "interface": false,
+    "extends": [
+      "black-engine~Tween"
+    ]
+  },
+  {
+    "__docId__": 50,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Breath.js~Breath#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1.5",
+        "defaultRaw": 1.5,
+        "name": "args.duration",
+        "description": "duration of animation"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "onComplete",
+        "description": "callback will be called when animation is completed"
+      }
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "member",
+    "name": "mOnComplete",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "static": false,
+    "longname": "src/Animation/Breath.js~Breath#mOnComplete",
+    "access": "private",
+    "description": "",
+    "lineNumber": 29,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Breath.js~Breath#onAdded",
+    "access": "public",
+    "description": "",
+    "lineNumber": 35,
+    "ignore": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "member",
+    "name": "end",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "static": false,
+    "longname": "src/Animation/Breath.js~Breath#end",
+    "access": "public",
+    "description": "End the animation by playing the remaining animations. Or, it will be\nawkward with a breaking animation.",
+    "lineNumber": 46,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "loop",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "longname": "src/Animation/Breath.js~Breath#loop",
+    "access": "public",
+    "description": null,
+    "lineNumber": 52,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "repeats",
+    "memberof": "src/Animation/Breath.js~Breath",
+    "longname": "src/Animation/Breath.js~Breath#repeats",
+    "access": "public",
+    "description": null,
+    "lineNumber": 53,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/Animation/Ease.js",
+    "content": "/**\n * Eases which are not provided by Black Engine.\n */\nclass Ease {\n  // swipe\n  static outQuint(t) {\n    return 1 + --t * t * t * t * t\n  }\n\n  // swipe bounce\n  static outQuard(t) {\n    return t * (2 - t)\n  }\n\n  // bounce\n  static outQuart(t) {\n    return 1 - --t * t * t * t\n  }\n}\n\nexport default Ease\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Animation/Ease.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "class",
+    "name": "Ease",
+    "memberof": "src/Animation/Ease.js",
+    "static": true,
+    "longname": "src/Animation/Ease.js~Ease",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Animation/Ease.js",
+    "importStyle": "Ease",
+    "description": "Eases which are not provided by Black Engine.",
+    "lineNumber": 4,
+    "interface": false
+  },
+  {
+    "__docId__": 58,
+    "kind": "method",
+    "name": "outQuint",
+    "memberof": "src/Animation/Ease.js~Ease",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Animation/Ease.js~Ease.outQuint",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [
+      {
+        "name": "t",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "outQuard",
+    "memberof": "src/Animation/Ease.js~Ease",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Animation/Ease.js~Ease.outQuard",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "params": [
+      {
+        "name": "t",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "outQuart",
+    "memberof": "src/Animation/Ease.js~Ease",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/Animation/Ease.js~Ease.outQuart",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "params": [
+      {
+        "name": "t",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/Animation/Fade.js",
+    "content": "import Tween from './Tween'\n\nconst IN = 'in'\nconst OUT = 'out'\n\n/**\n * A common animation - fade.\n *\n * @example\n * const fade = new Fade({ type: 'in' })\n * gameObject.addComponent(fade)\n */\nclass Fade extends Tween {\n  /**\n   * @param {Object} args\n   * @param {string} [args.type='in'] type of animation, valid value: `in` / `out`\n   * @param {number} [args.duration=1] duration of animation\n   * @param {function} onComplete callback will be called when animation is completed\n   */\n  constructor({ type = IN, duration = 1 } = {}, onComplete) {\n    if (type === IN) {\n      super({ alpha: 1 }, duration)\n      /**\n       * @ignore\n       */\n      this.startValue = 0\n    } else if (type === OUT) {\n      super({ alpha: 0 }, duration)\n      /**\n       * @ignore\n       */\n      this.startValue = 1\n    } else {\n      throw new Error(`[Fade] unknown type - ${type}`)\n    }\n\n    /**\n     * @access private\n     */\n    this.mOnComplete = onComplete\n  }\n\n  /**\n   * @ignore\n   */\n  onAdded(gameObject) {\n    if (this.mOnComplete) {\n      this.on('complete', () => {\n        this.mOnComplete()\n      })\n    }\n\n    gameObject.alpha = this.startValue\n    super.onAdded()\n  }\n}\n\nexport default Fade\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Animation/Fade.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "variable",
+    "name": "IN",
+    "memberof": "src/Animation/Fade.js",
+    "static": true,
+    "longname": "src/Animation/Fade.js~IN",
+    "access": "public",
+    "export": false,
+    "importPath": "@m31271n/black-box/src/Animation/Fade.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "variable",
+    "name": "OUT",
+    "memberof": "src/Animation/Fade.js",
+    "static": true,
+    "longname": "src/Animation/Fade.js~OUT",
+    "access": "public",
+    "export": false,
+    "importPath": "@m31271n/black-box/src/Animation/Fade.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "Fade",
+    "memberof": "src/Animation/Fade.js",
+    "static": true,
+    "longname": "src/Animation/Fade.js~Fade",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Animation/Fade.js",
+    "importStyle": "Fade",
+    "description": "A common animation - fade.",
+    "examples": [
+      "const fade = new Fade({ type: 'in' })\ngameObject.addComponent(fade)"
+    ],
+    "lineNumber": 13,
+    "interface": false,
+    "extends": [
+      "src/Animation/Tween.js~Tween"
+    ]
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Animation/Fade.js~Fade",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Fade.js~Fade#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 20,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'in'",
+        "defaultRaw": "'in'",
+        "name": "args.type",
+        "description": "type of animation, valid value: `in` / `out`"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1",
+        "defaultRaw": 1,
+        "name": "args.duration",
+        "description": "duration of animation"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "onComplete",
+        "description": "callback will be called when animation is completed"
+      }
+    ]
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "startValue",
+    "memberof": "src/Animation/Fade.js~Fade",
+    "static": false,
+    "longname": "src/Animation/Fade.js~Fade#startValue",
+    "access": "public",
+    "description": "",
+    "lineNumber": 26,
+    "ignore": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "mOnComplete",
+    "memberof": "src/Animation/Fade.js~Fade",
+    "static": false,
+    "longname": "src/Animation/Fade.js~Fade#mOnComplete",
+    "access": "private",
+    "description": "",
+    "lineNumber": 40,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Animation/Fade.js~Fade",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Fade.js~Fade#onAdded",
+    "access": "public",
+    "description": "",
+    "lineNumber": 46,
+    "ignore": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/Animation/Tween.js",
+    "content": "import { Tween as $Tween } from 'black-engine'\n\n/**\n * Extended version of Tween provided by Black Engine.\n */\nclass Tween extends $Tween {\n  /**\n   * @ignore\n   */\n  constructor(...args) {\n    super(...args)\n\n    /**\n     * @access private\n     */\n    this.mIsCompleted = false\n  }\n\n  /**\n   * @ignore\n   */\n  onAdded(gameObject) {\n    this.on('complete', () => {\n      this.mIsCompleted = true\n    })\n\n    super.onAdded(gameObject)\n  }\n\n  /**\n   * @return {Promise} It will be resolved when current tween is completed.\n   */\n  complete() {\n    return new Promise(resolve => {\n      if (this.mIsCompleted) {\n        resolve()\n      } else {\n        this.on('complete', resolve)\n      }\n    })\n  }\n}\n\nexport default Tween\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Animation/Tween.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "class",
+    "name": "Tween",
+    "memberof": "src/Animation/Tween.js",
+    "static": true,
+    "longname": "src/Animation/Tween.js~Tween",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Animation/Tween.js",
+    "importStyle": "Tween",
+    "description": "Extended version of Tween provided by Black Engine.",
+    "lineNumber": 6,
+    "interface": false,
+    "extends": [
+      "black-engine~$Tween"
+    ]
+  },
+  {
+    "__docId__": 72,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Animation/Tween.js~Tween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Tween.js~Tween#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 10,
+    "ignore": true
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "mIsCompleted",
+    "memberof": "src/Animation/Tween.js~Tween",
+    "static": false,
+    "longname": "src/Animation/Tween.js~Tween#mIsCompleted",
+    "access": "private",
+    "description": "",
+    "lineNumber": 16,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Animation/Tween.js~Tween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Tween.js~Tween#onAdded",
+    "access": "public",
+    "description": "",
+    "lineNumber": 22,
+    "ignore": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "complete",
+    "memberof": "src/Animation/Tween.js~Tween",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Animation/Tween.js~Tween#complete",
+    "access": "public",
+    "description": "",
+    "lineNumber": 33,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "It will be resolved when current tween is completed."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 77,
+    "kind": "file",
+    "name": "src/Animation/index.js",
+    "content": "import Breath from './Breath'\nimport Ease from './Ease'\nimport Fade from './Fade'\nimport Tween from './Tween'\n\nexport { default as Breath } from './Breath'\nexport { default as Ease } from './Ease'\nexport { default as Fade } from './Fade'\nexport { default as Tween } from './Tween'\n\nexport default {\n  Breath,\n  Ease,\n  Fade,\n  Tween,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Animation/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/AssetManager.js",
+    "content": "import { AssetManager as $AssetManager } from 'black-engine'\n\n/**\n * Extended version of AssetManager provided by Black Engine.\n *\n * @experimental\n *\n * @example\n * const { default: assetManager } = AssetManager\n * assetManager.enqueueImage('bg', urlBG)\n * assetManager.enqueueImage('logo', urlLOGO)\n * // asset manager will wait until bg and logo is loaded\n * await assetManager.load()\n *\n * assetManager.enqueueImage('asset1', urlAsset1)\n * assetManager.enqueueImage('asset2', urlAsset2)\n * await assetManager.load()\n */\nclass AssetManager extends $AssetManager {\n  /**\n   * Promised `loadQueue()`.\n   */\n  load() {\n    return new Promise(resolve => {\n      /**\n       * @ignore\n       * fix issue:\n       * when calling loadQueue() multiple times, then complete isn't triggered\n       */\n      this.mTotalPending = 0\n\n      this.loadQueue()\n      this.once('complete', resolve)\n    })\n  }\n}\n\nAssetManager.default = new AssetManager()\n\nexport default AssetManager\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/AssetManager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "class",
+    "name": "AssetManager",
+    "memberof": "src/AssetManager.js",
+    "static": true,
+    "longname": "src/AssetManager.js~AssetManager",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/AssetManager.js",
+    "importStyle": "AssetManager",
+    "description": "Extended version of AssetManager provided by Black Engine.",
+    "examples": [
+      "const { default: assetManager } = AssetManager\nassetManager.enqueueImage('bg', urlBG)\nassetManager.enqueueImage('logo', urlLOGO)\n// asset manager will wait until bg and logo is loaded\nawait assetManager.load()\n\nassetManager.enqueueImage('asset1', urlAsset1)\nassetManager.enqueueImage('asset2', urlAsset2)\nawait assetManager.load()"
+    ],
+    "lineNumber": 19,
+    "experimental": true,
+    "interface": false,
+    "extends": [
+      "black-engine~$AssetManager"
+    ]
+  },
+  {
+    "__docId__": 80,
+    "kind": "method",
+    "name": "load",
+    "memberof": "src/AssetManager.js~AssetManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/AssetManager.js~AssetManager#load",
+    "access": "public",
+    "description": "Promised `loadQueue()`.",
+    "lineNumber": 23,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "mTotalPending",
+    "memberof": "src/AssetManager.js~AssetManager",
+    "static": false,
+    "longname": "src/AssetManager.js~AssetManager#mTotalPending",
+    "access": "public",
+    "description": "",
+    "lineNumber": 30,
+    "ignore": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/Debug/Console.js",
+    "content": "/**\n * Load vConsole according querystring. When specified pattern is found in\n * querystring, vConsole will be enabled.\n *\n * WARNING: If you are using Babel, you need to enable @babel/plugin-syntax-dynamic-import.\n *\n * @see https://github.com/Tencent/vConsole\n */\nclass Console {\n  /**\n   * @param {RegExp} [pattern=/debug/] pattern will be searched\n   */\n  constructor(pattern = /debug/) {\n    if (pattern.test(location.search)) {\n      import('vconsole').then(({ default: VConsole }) => {\n        new VConsole()\n      })\n    }\n  }\n}\n\nexport default Console\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Debug/Console.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "class",
+    "name": "Console",
+    "memberof": "src/Debug/Console.js",
+    "static": true,
+    "longname": "src/Debug/Console.js~Console",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Debug/Console.js",
+    "importStyle": "Console",
+    "description": "Load vConsole according querystring. When specified pattern is found in\nquerystring, vConsole will be enabled.\n\nWARNING: If you are using Babel, you need to enable @babel/plugin-syntax-dynamic-import.",
+    "see": [
+      "https://github.com/Tencent/vConsole"
+    ],
+    "lineNumber": 9,
+    "interface": false
+  },
+  {
+    "__docId__": 84,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Debug/Console.js~Console",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Debug/Console.js~Console#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "RegExp"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "/debug/",
+        "defaultRaw": "/debug/",
+        "name": "pattern",
+        "description": "pattern will be searched"
+      }
+    ]
+  },
+  {
+    "__docId__": 85,
+    "kind": "file",
+    "name": "src/Debug/index.js",
+    "content": "import Console from './Console'\n\nexport { default as Console } from './Console'\n\nexport default {\n  Console,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Debug/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/Display/Bounds.js",
+    "content": "import { Component, Graphics, GameObject } from 'black-engine'\n\n/**\n * Add visible bounds for an existing GameObject.\n *\n * @example\n * const bounds = new Bounds()\n * gameObject.addComponent(bounds)\n */\nclass Bounds extends Component {\n  /**\n   * @ignore\n   */\n  onAdded(gameObject) {\n    const { parent } = gameObject\n\n    this.topLeft = this.makeIndicator(0)\n    this.topRight = this.makeIndicator(Math.PI * 0.5)\n    this.bottomLeft = this.makeIndicator(Math.PI * 1.5)\n    this.bottomRight = this.makeIndicator(Math.PI)\n    parent.add(this.topLeft)\n    parent.add(this.topRight)\n    parent.add(this.bottomLeft)\n    parent.add(this.bottomRight)\n\n    this.placeIndicator()\n  }\n\n  /**\n   * @ignore\n   */\n  onRemoved() {\n    this.topLeft.removeFromParent()\n    this.topRight.removeFromParent()\n    this.bottomLeft.removeFromParent()\n    this.bottomRight.removeFromParent()\n  }\n\n  /**\n   * @ignore\n   */\n  onUpdate() {\n    this.placeIndicator()\n  }\n\n  /**\n   * @ignore\n   */\n  placeIndicator() {\n    // get the bounds relative to sprite's parent with all children\n    const bounds = this.gameObject.getBounds(null, true)\n    const { left, right, top, bottom } = bounds\n    this.topLeft.x = left\n    this.topLeft.y = top\n    this.topRight.x = right\n    this.topRight.y = top\n    this.bottomLeft.x = left\n    this.bottomLeft.y = bottom\n    this.bottomRight.x = right\n    this.bottomRight.y = bottom\n  }\n\n  /**\n   * @ignore\n   */\n  makeIndicator(rotation = 0) {\n    const color = 0xf9b626\n    const cross = new GameObject()\n\n    const g1 = new Graphics()\n    g1.beginPath()\n    g1.fillStyle(color)\n    g1.lineStyle(1, color)\n    g1.rect(0, 0, 4, 20)\n    g1.stroke()\n    g1.fill()\n    cross.add(g1)\n\n    const g2 = new Graphics()\n    g2.beginPath()\n    g2.fillStyle(color)\n    g2.lineStyle(1, color)\n    g2.rect(0, 0, 20, 4)\n    g2.stroke()\n    g2.fill()\n    cross.add(g2)\n\n    cross.alignPivot()\n    cross.rotation = rotation\n    return cross\n  }\n}\n\nexport default Bounds\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Display/Bounds.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "class",
+    "name": "Bounds",
+    "memberof": "src/Display/Bounds.js",
+    "static": true,
+    "longname": "src/Display/Bounds.js~Bounds",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Display/Bounds.js",
+    "importStyle": "Bounds",
+    "description": "Add visible bounds for an existing GameObject.",
+    "examples": [
+      "const bounds = new Bounds()\ngameObject.addComponent(bounds)"
+    ],
+    "lineNumber": 10,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 88,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#onAdded",
+    "access": "public",
+    "description": "",
+    "lineNumber": 14,
+    "ignore": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 89,
+    "kind": "member",
+    "name": "topLeft",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#topLeft",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "member",
+    "name": "topRight",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#topRight",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 91,
+    "kind": "member",
+    "name": "bottomLeft",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#bottomLeft",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "member",
+    "name": "bottomRight",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#bottomRight",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#onRemoved",
+    "access": "public",
+    "description": "",
+    "lineNumber": 32,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 94,
+    "kind": "method",
+    "name": "onUpdate",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#onUpdate",
+    "access": "public",
+    "description": "",
+    "lineNumber": 42,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 95,
+    "kind": "method",
+    "name": "placeIndicator",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#placeIndicator",
+    "access": "public",
+    "description": "",
+    "lineNumber": 49,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 96,
+    "kind": "method",
+    "name": "makeIndicator",
+    "memberof": "src/Display/Bounds.js~Bounds",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Bounds.js~Bounds#makeIndicator",
+    "access": "public",
+    "description": "",
+    "lineNumber": 66,
+    "ignore": true,
+    "params": [
+      {
+        "name": "rotation",
+        "optional": true,
+        "types": [
+          "number"
+        ],
+        "defaultRaw": 0,
+        "defaultValue": "0"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "file",
+    "name": "src/Display/Video.js",
+    "content": "import { Black, GameObject } from 'black-engine'\nimport Layer from '../Layer'\nimport { transformDOM } from '../helper/dom'\n\n/**\n * Video player based on HTML5 `<video>` tag.\n *\n * @example\n * const url = 'https://url/to/video'\n * const video = new Video(url, {\n *   width: 750,\n *   height: 1500,\n * })\n *\n * class Theater extends Scene {\n *   onAdded() {\n *     this.addChild(video)\n *   }\n * }\n */\nclass Video extends GameObject {\n  /**\n   * @param {string} src='' url of video\n   * @param {Object} options\n   * @param {string} [options.id=''] id of video\n   * @param {number} [options.width=640] width of video\n   * @param {number} [options.height=320] height of video\n   * @param {boolean} [options.loop=false] enable loop\n   * @param {boolean} [options.hide=false] hide video after creating it\n   */\n  constructor(\n    src,\n    { id = '', width = 640, height = 320, loop = false, hide = false } = {}\n  ) {\n    super()\n\n    /**\n     * @ignore\n     */\n    this.mSrc = src\n    /**\n     * @ignore\n     */\n    this.mId = id\n    /**\n     * @ignore\n     */\n    this.mWidth = width\n    /**\n     * @ignore\n     */\n    this.mHeight = height\n    /**\n     * @ignore\n     */\n    this.mLoop = loop\n    /**\n     * @ignore\n     */\n    this.mHide = hide\n\n    /**\n     * @ignore\n     */\n    this.mVideo = this.createVideoDOM()\n    /**\n     * @ignore\n     */\n    this.mContainer = null\n    /**\n     * @ignore\n     */\n    this.mPreplayPromise = null\n    /**\n     * @ignore\n     */\n    this.mReady = false\n    /**\n     * @ignore\n     */\n    this.mReadyTime = 0\n  }\n\n  /**\n   * Create video DOM.\n   * @access private\n   */\n  createVideoDOM() {\n    const video = document.createElement('video')\n    video.src = this.mSrc\n\n    // identifiers\n    video.className = 'black-video'\n    if (this.mId) video.id = this.mId\n\n    // standard adaptation\n    video.style.position = 'absolute'\n    video.style.top = '0'\n    video.style.left = '0'\n    video.style.zIndex = this.mHide\n      ? Layer.DOM_DISPLAY_HIDDEN\n      : Layer.DOM_DISPLAY\n    if (this.mWidth) video.style.width = `${this.mWidth}px`\n    if (this.mHeight) video.style.height = `${this.mHeight}px`\n\n    video.loop = this.mLoop\n    video.crossorigin = 'anonymous'\n    video.setAttribute('preload', 'auto')\n    video.setAttribute('playsinline', '')\n\n    // WebKit-based browser adaptation\n    video.setAttribute('webkit-playsinline', '')\n\n    // QQ Browser\n    video.setAttribute('x5-playsinline', '')\n    // video.setAttribute('x5-video-player-type', 'h5')\n\n    return video\n  }\n\n  /**\n   * @ignore\n   */\n  onAdded() {\n    const { containerElement } = Black.instance\n    this.mContainer = containerElement\n\n    const { mVideo: video } = this\n    this.transformVideo()\n\n    video.addEventListener('ended', this.onEnd)\n\n    /**\n     * @ignore\n     */\n    this.resizeListener = Black.instance.stage.on(\n      'resize',\n      this.transformVideo,\n      this\n    )\n\n    this.mContainer.appendChild(video)\n  }\n\n  /**\n   * @ignore\n   * @emits {end}\n   */\n  onEnd = () => {\n    this.post('end')\n  }\n\n  /**\n   * Resize and position current video DOM according stage's setting.\n   * @access private\n   */\n  transformVideo() {\n    const { localTransformation: matrix } = Black.instance.stage\n    transformDOM(this.mVideo, matrix)\n  }\n\n  /**\n   * @ignore\n   *\n   * @emits {progress}\n   */\n  onUpdate() {\n    const { currentTime } = this.mVideo\n    this.post('progress', { currentTime })\n  }\n\n  /**\n   * @ignore\n   */\n  onRemoved() {\n    const { mVideo: video } = this\n    if (!video) return\n\n    video.removeEventListener('ended', this.onEnd)\n    this.resizeListener.off()\n\n    this.mContainer.removeChild(video)\n  }\n\n  /**\n   * Unlock current video.\n   *\n   * @see https://stackoverflow.com/a/50480115/1793548\n   */\n  unlock() {\n    const { mVideo: video } = this\n    const { paused: isPausedBeforeUnlock } = video\n    video.play()\n    if (isPausedBeforeUnlock) {\n      video.pause()\n    }\n  }\n\n  /**\n   * Play current video.\n   *\n   * This method will preplay video beforehand. There are following reasons to\n   * do this:\n   * 1. solve the blinking problem when playing video on Android devices.\n   * 2. fetch metadata of video in advance, such as `duration`.\n   *\n   * @emits {play}\n   * @return {Promise} same as DOM API - `play()`\n   */\n  play() {\n    const { mVideo: video } = this\n\n    if (this.mReady) {\n      this.post('play')\n      return video.play()\n    }\n\n    this.mPreplayPromise =\n      this.mPreplayPromise ||\n      new Promise(resolve => {\n        const listener = () => {\n          const { currentTime } = video\n          if (currentTime > 0) {\n            video.removeEventListener('timeupdate', listener)\n            this.mReady = true\n            this.mReadyTime = currentTime\n            video.muted = false\n            this.post('play')\n            resolve()\n          }\n        }\n        video.addEventListener('timeupdate', listener)\n        video.muted = true\n        video.play()\n      })\n    return this.mPreplayPromise\n  }\n\n  /**\n   * Pause current video.\n   *\n   * @emits {pause}\n   * @return {Promise} same as DOM API - `pause()`\n   */\n  pause() {\n    this.post('pause')\n    return this.mVideo.pause()\n  }\n\n  /**\n   * Reset current video's timeline.\n   *\n   * @emits {reset}\n   */\n  reset() {\n    this.post('reset')\n    this.mVideo.currentTime = this.mReadyTime\n  }\n\n  /**\n   * Show current video.\n   *\n   * @emits {show}\n   */\n  show() {\n    this.mVideo.style.zIndex = Layer.DOM_DISPLAY\n    this.post('show')\n  }\n\n  /**\n   * Hide current video.\n   *\n   * @emits {hide}\n   */\n  hide() {\n    this.mVideo.style.zIndex = Layer.DOM_DISPLAY_HIDDEN\n    this.post('hide')\n  }\n\n  /**\n   * Get duration of current video.\n   */\n  get duration() {\n    return this.mVideo.duration\n  }\n}\n\nexport default Video\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Display/Video.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 98,
+    "kind": "class",
+    "name": "Video",
+    "memberof": "src/Display/Video.js",
+    "static": true,
+    "longname": "src/Display/Video.js~Video",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Display/Video.js",
+    "importStyle": "Video",
+    "description": "Video player based on HTML5 `<video>` tag.",
+    "examples": [
+      "const url = 'https://url/to/video'\nconst video = new Video(url, {\n  width: 750,\n  height: 1500,\n})\n\nclass Theater extends Scene {\n  onAdded() {\n    this.addChild(video)\n  }\n}"
+    ],
+    "lineNumber": 21,
+    "interface": false,
+    "extends": [
+      "black-engine~GameObject"
+    ]
+  },
+  {
+    "__docId__": 99,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 31,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "src",
+        "description": "url of video"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "options",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "options.id",
+        "description": "id of video"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "640",
+        "defaultRaw": 640,
+        "name": "options.width",
+        "description": "width of video"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "320",
+        "defaultRaw": 320,
+        "name": "options.height",
+        "description": "height of video"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "options.loop",
+        "description": "enable loop"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "options.hide",
+        "description": "hide video after creating it"
+      }
+    ]
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "mSrc",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mSrc",
+    "access": "public",
+    "description": "",
+    "lineNumber": 40,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "mId",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mId",
+    "access": "public",
+    "description": "",
+    "lineNumber": 44,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "member",
+    "name": "mWidth",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mWidth",
+    "access": "public",
+    "description": "",
+    "lineNumber": 48,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "member",
+    "name": "mHeight",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mHeight",
+    "access": "public",
+    "description": "",
+    "lineNumber": 52,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "member",
+    "name": "mLoop",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mLoop",
+    "access": "public",
+    "description": "",
+    "lineNumber": 56,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "member",
+    "name": "mHide",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mHide",
+    "access": "public",
+    "description": "",
+    "lineNumber": 60,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "mVideo",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mVideo",
+    "access": "public",
+    "description": "",
+    "lineNumber": 65,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "member",
+    "name": "mContainer",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mContainer",
+    "access": "public",
+    "description": "",
+    "lineNumber": 69,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "member",
+    "name": "mPreplayPromise",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mPreplayPromise",
+    "access": "public",
+    "description": "",
+    "lineNumber": 73,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "member",
+    "name": "mReady",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mReady",
+    "access": "public",
+    "description": "",
+    "lineNumber": 77,
+    "ignore": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "member",
+    "name": "mReadyTime",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#mReadyTime",
+    "access": "public",
+    "description": "",
+    "lineNumber": 81,
+    "ignore": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "method",
+    "name": "createVideoDOM",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#createVideoDOM",
+    "access": "private",
+    "description": "Create video DOM.",
+    "lineNumber": 88,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#onAdded",
+    "access": "public",
+    "description": "",
+    "lineNumber": 124,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 114,
+    "kind": "member",
+    "name": "resizeListener",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#resizeListener",
+    "access": "public",
+    "description": "",
+    "lineNumber": 136,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "member",
+    "name": "onEnd",
+    "memberof": "src/Display/Video.js~Video",
+    "static": false,
+    "longname": "src/Display/Video.js~Video#onEnd",
+    "access": "public",
+    "description": "",
+    "lineNumber": 149,
+    "ignore": true,
+    "emits": [
+      {
+        "types": [
+          "end"
+        ],
+        "description": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "method",
+    "name": "transformVideo",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#transformVideo",
+    "access": "private",
+    "description": "Resize and position current video DOM according stage's setting.",
+    "lineNumber": 157,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 117,
+    "kind": "method",
+    "name": "onUpdate",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#onUpdate",
+    "access": "public",
+    "description": "",
+    "lineNumber": 167,
+    "ignore": true,
+    "emits": [
+      {
+        "types": [
+          "progress"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 118,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#onRemoved",
+    "access": "public",
+    "description": "",
+    "lineNumber": 175,
+    "ignore": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 119,
+    "kind": "method",
+    "name": "unlock",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#unlock",
+    "access": "public",
+    "description": "Unlock current video.",
+    "see": [
+      "https://stackoverflow.com/a/50480115/1793548"
+    ],
+    "lineNumber": 190,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 120,
+    "kind": "method",
+    "name": "play",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#play",
+    "access": "public",
+    "description": "Play current video.\n\nThis method will preplay video beforehand. There are following reasons to\ndo this:\n1. solve the blinking problem when playing video on Android devices.\n2. fetch metadata of video in advance, such as `duration`.",
+    "lineNumber": 210,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "same as DOM API - `play()`"
+    },
+    "emits": [
+      {
+        "types": [
+          "play"
+        ],
+        "description": ""
+      }
+    ],
+    "params": []
+  },
+  {
+    "__docId__": 124,
+    "kind": "method",
+    "name": "pause",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#pause",
+    "access": "public",
+    "description": "Pause current video.",
+    "lineNumber": 245,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise"
+      ],
+      "spread": false,
+      "description": "same as DOM API - `pause()`"
+    },
+    "emits": [
+      {
+        "types": [
+          "pause"
+        ],
+        "description": ""
+      }
+    ],
+    "params": []
+  },
+  {
+    "__docId__": 125,
+    "kind": "method",
+    "name": "reset",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#reset",
+    "access": "public",
+    "description": "Reset current video's timeline.",
+    "lineNumber": 255,
+    "emits": [
+      {
+        "types": [
+          "reset"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 126,
+    "kind": "method",
+    "name": "show",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#show",
+    "access": "public",
+    "description": "Show current video.",
+    "lineNumber": 265,
+    "emits": [
+      {
+        "types": [
+          "show"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 127,
+    "kind": "method",
+    "name": "hide",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#hide",
+    "access": "public",
+    "description": "Hide current video.",
+    "lineNumber": 275,
+    "emits": [
+      {
+        "types": [
+          "hide"
+        ],
+        "description": ""
+      }
+    ],
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 128,
+    "kind": "get",
+    "name": "duration",
+    "memberof": "src/Display/Video.js~Video",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Display/Video.js~Video#duration",
+    "access": "public",
+    "description": "Get duration of current video.",
+    "lineNumber": 283,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 129,
+    "kind": "file",
+    "name": "src/Display/index.js",
+    "content": "import Bounds from './Bounds'\nimport Video from './Video'\n\nexport { default as Bounds } from './Bounds'\nexport { default as Video } from './Video'\n\nexport default {\n  Bounds,\n  Video,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Display/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 130,
+    "kind": "file",
+    "name": "src/Input/DomInteraction.js",
+    "content": "import { Black, Component } from 'black-engine'\nimport Layer from '../Layer'\nimport { transformDOM } from '../helper/dom'\n\nclass DomInteraction extends Component {\n  constructor(\n    callback,\n    { events = ['touchend', 'click'], once = false, debug = false } = {}\n  ) {\n    super()\n\n    if (!callback || typeof callback !== 'function') {\n      throw new Error('[DomInteraction] invalid callback')\n    }\n\n    this.mDom = null\n    this.mEvents = events\n    this.mOnce = once\n    this.mTriggeredOnce = false\n    this.mCallback = callback\n    this.mDebug = debug\n  }\n\n  cb = () => {\n    if (this.mOnce && this.mTriggeredOnce) return\n\n    this.mTriggeredOnce = true\n    this.mCallback()\n  }\n\n  onAdded(gameObject) {\n    const { containerElement } = Black.instance\n    const { width, height } = gameObject\n\n    const dom = document.createElement('div')\n    this.mDom = dom\n    dom.style.position = 'absolute'\n    dom.style.width = `${width}px`\n    dom.style.height = `${height}px`\n    dom.style.zIndex = Layer.DOM_INTERACTION\n    this.position()\n    containerElement.appendChild(dom)\n\n    if (this.mDebug) {\n      dom.style.backgroundColor = 'rgba(255, 0, 0, 0.2)'\n    }\n\n    this.mEvents.forEach(event => {\n      dom.addEventListener(event, this.cb)\n    })\n\n    Black.instance.stage.on('resize', this.position, this)\n  }\n\n  onRemoved() {\n    const { containerElement } = Black.instance\n\n    this.mEvents.forEach(event => {\n      this.mDom.removeEventListener(event, this.cb)\n    })\n\n    containerElement.removeChild(this.mDom)\n\n    Black.instance.stage.off('resize')\n  }\n\n  position() {\n    const { gameObject, mDom: dom } = this\n    const matrix = gameObject.worldTransformation\n    transformDOM(dom, matrix)\n  }\n}\n\nexport default DomInteraction\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/DomInteraction.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 131,
+    "kind": "class",
+    "name": "DomInteraction",
+    "memberof": "src/Input/DomInteraction.js",
+    "static": true,
+    "longname": "src/Input/DomInteraction.js~DomInteraction",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Input/DomInteraction.js",
+    "importStyle": "DomInteraction",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 132,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 133,
+    "kind": "member",
+    "name": "mDom",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mDom",
+    "access": "public",
+    "description": null,
+    "lineNumber": 16,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 134,
+    "kind": "member",
+    "name": "mEvents",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mEvents",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "member",
+    "name": "mOnce",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mOnce",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 136,
+    "kind": "member",
+    "name": "mTriggeredOnce",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mTriggeredOnce",
+    "access": "public",
+    "description": null,
+    "lineNumber": 19,
+    "undocument": true,
+    "type": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "member",
+    "name": "mCallback",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mCallback",
+    "access": "public",
+    "description": null,
+    "lineNumber": 20,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 138,
+    "kind": "member",
+    "name": "mDebug",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#mDebug",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "member",
+    "name": "cb",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#cb",
+    "access": "public",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#onAdded",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 143,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#onRemoved",
+    "access": "public",
+    "description": null,
+    "lineNumber": 55,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 144,
+    "kind": "method",
+    "name": "position",
+    "memberof": "src/Input/DomInteraction.js~DomInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/DomInteraction.js~DomInteraction#position",
+    "access": "public",
+    "description": null,
+    "lineNumber": 67,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 145,
+    "kind": "file",
+    "name": "src/Input/MinimalInteractiveArea.js",
+    "content": "import { Component, Graphics } from 'black-engine'\n\n/*\n * This component adds a rectangle to small elements in order to make clicking\n * them easier.\n *\n * Usage:\n *   const sprite = new Sprite('image')\n *   // you should use alignPivotOffset() other than alignAnchor(), in order to\n *   // avoid unwanted offsets due to adding external rectangle provided by this\n *   // component.\n *   sprite.alignPivotOffset(1, 0)\n *   sprite.addComponent(\n *     new MinimalInteractiveArea({ width: 150, height: 150, debug: true })\n *   )\n */\nclass MinimalInteractiveArea extends Component {\n  constructor({ width = 150, height = 150, debug = false } = {}) {\n    super()\n\n    this.mDebug = debug\n    this.width = width\n    this.height = height\n  }\n\n  onAdded() {\n    const {\n      parent: { width: containerWidth, height: containerHeight },\n      width,\n      height,\n    } = this\n    const lineAlpha = this.mDebug ? 1 : 0\n\n    const g = new Graphics()\n    g.touchable = true\n    g.beginPath()\n    g.lineStyle(1, 0xff0000, lineAlpha)\n    g.rect(\n      (containerWidth - width) / 2,\n      (containerHeight - height) / 2,\n      width,\n      height\n    )\n    g.stroke()\n    this.parent.addChild(g)\n    this.parent.minimalInteractiveArea = g\n  }\n}\n\nexport default MinimalInteractiveArea\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/MinimalInteractiveArea.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 146,
+    "kind": "class",
+    "name": "MinimalInteractiveArea",
+    "memberof": "src/Input/MinimalInteractiveArea.js",
+    "static": true,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Input/MinimalInteractiveArea.js",
+    "importStyle": "MinimalInteractiveArea",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 147,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true
+  },
+  {
+    "__docId__": 148,
+    "kind": "member",
+    "name": "mDebug",
+    "memberof": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "static": false,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea#mDebug",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "member",
+    "name": "width",
+    "memberof": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "static": false,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea#width",
+    "access": "public",
+    "description": null,
+    "lineNumber": 22,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 150,
+    "kind": "member",
+    "name": "height",
+    "memberof": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "static": false,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea#height",
+    "access": "public",
+    "description": null,
+    "lineNumber": 23,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/MinimalInteractiveArea.js~MinimalInteractiveArea#onAdded",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 152,
+    "kind": "file",
+    "name": "src/Input/NativeInteraction.js",
+    "content": "import { Component, GameObject, Input } from 'black-engine'\n\nclass NativeInteraction extends Component {\n  constructor(callback, { events = ['touchend'] } = {}) {\n    super()\n\n    if (!callback || typeof callback !== 'function') {\n      throw new Error('[NativeInteraction] invalid callback')\n    }\n\n    this.mEvents = events\n    this.mCallback = callback\n  }\n\n  eventHandler = () => {\n    if (GameObject.intersects(this.gameObject, Input.pointerPosition)) {\n      this.mCallback()\n    }\n  }\n\n  onAdded() {\n    this.mEvents.forEach(event => {\n      document.addEventListener(event, this.eventHandler)\n    })\n  }\n\n  onRemoved() {\n    this.mEvents.forEach(event => {\n      document.removeEventListener(event, this.eventHandler)\n    })\n  }\n}\n\nexport default NativeInteraction\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/NativeInteraction.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 153,
+    "kind": "class",
+    "name": "NativeInteraction",
+    "memberof": "src/Input/NativeInteraction.js",
+    "static": true,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Input/NativeInteraction.js",
+    "importStyle": "NativeInteraction",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 154,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 155,
+    "kind": "member",
+    "name": "mEvents",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#mEvents",
+    "access": "public",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 156,
+    "kind": "member",
+    "name": "mCallback",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#mCallback",
+    "access": "public",
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 157,
+    "kind": "member",
+    "name": "eventHandler",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#eventHandler",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 158,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#onAdded",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 159,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Input/NativeInteraction.js~NativeInteraction",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/NativeInteraction.js~NativeInteraction#onRemoved",
+    "access": "public",
+    "description": null,
+    "lineNumber": 27,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 160,
+    "kind": "file",
+    "name": "src/Input/ScaleButton.js",
+    "content": "import { Component } from 'black-engine'\n\nclass ScaleButton extends Component {\n  constructor(scale = 0.95) {\n    super()\n\n    this.mScale = scale\n    this.mOnPointerUp = null\n    this.mOnPointerDown = null\n    this.mOriginalScale = 1\n  }\n\n  onAdded(gameObject) {\n    this.mOriginalScale = gameObject.scale\n\n    this.mOnPointerUp = gameObject.on('pointerUp', () => {\n      gameObject.scale = this.mOriginalScale\n    })\n\n    this.mOnPointerDown = gameObject.on('pointerDown', () => {\n      gameObject.scale = this.mOriginalScale * this.mScale\n    })\n  }\n\n  onRemoved() {\n    this.mOnPointerUp.off()\n    this.mOnPointerDown.off()\n  }\n}\n\nexport default ScaleButton\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/ScaleButton.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 161,
+    "kind": "class",
+    "name": "ScaleButton",
+    "memberof": "src/Input/ScaleButton.js",
+    "static": true,
+    "longname": "src/Input/ScaleButton.js~ScaleButton",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Input/ScaleButton.js",
+    "importStyle": "ScaleButton",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 162,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true
+  },
+  {
+    "__docId__": 163,
+    "kind": "member",
+    "name": "mScale",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#mScale",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 164,
+    "kind": "member",
+    "name": "mOnPointerUp",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#mOnPointerUp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 165,
+    "kind": "member",
+    "name": "mOnPointerDown",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#mOnPointerDown",
+    "access": "public",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 166,
+    "kind": "member",
+    "name": "mOriginalScale",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#mOriginalScale",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    }
+  },
+  {
+    "__docId__": 167,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#onAdded",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 171,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Input/ScaleButton.js~ScaleButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/ScaleButton.js~ScaleButton#onRemoved",
+    "access": "public",
+    "description": null,
+    "lineNumber": 25,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 172,
+    "kind": "file",
+    "name": "src/Input/SoundButton.js",
+    "content": "import { AssetManager, Component } from 'black-engine'\n\nconst { default: defaultAssetManager } = AssetManager\n\nclass SoundButton extends Component {\n  constructor(\n    downSoundName,\n    upSoundName,\n    { assetManager } = { assetManager: defaultAssetManager }\n  ) {\n    super()\n\n    this.mDownSoundClip =\n      (downSoundName && assetManager.getSound(downSoundName)) || null\n    this.mUpSoundClip =\n      (upSoundName && assetManager.getSound(upSoundName)) || null\n    this.mOnPointerUp = null\n    this.mOnPointerDown = null\n  }\n\n  onAdded(gameObject) {\n    this.mOnPointerDown = gameObject.on('pointerDown', () => {\n      this.mDownSoundClip.play()\n    })\n\n    this.mOnPointerUp = gameObject.on('pointerUp', () => {\n      this.mUpSoundClip.play()\n    })\n  }\n\n  onRemoved() {\n    this.mOnPointerDown.off()\n    this.mOnPointerUp.off()\n  }\n}\n\nexport default SoundButton\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/SoundButton.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 173,
+    "kind": "variable",
+    "name": "default",
+    "memberof": "src/Input/SoundButton.js",
+    "static": true,
+    "longname": "src/Input/SoundButton.js~default",
+    "access": "public",
+    "export": false,
+    "importPath": "@m31271n/black-box/src/Input/SoundButton.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 174,
+    "kind": "class",
+    "name": "SoundButton",
+    "memberof": "src/Input/SoundButton.js",
+    "static": true,
+    "longname": "src/Input/SoundButton.js~SoundButton",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Input/SoundButton.js",
+    "importStyle": "SoundButton",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "black-engine~Component"
+    ]
+  },
+  {
+    "__docId__": 175,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true
+  },
+  {
+    "__docId__": 176,
+    "kind": "member",
+    "name": "mDownSoundClip",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#mDownSoundClip",
+    "access": "public",
+    "description": null,
+    "lineNumber": 13,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 177,
+    "kind": "member",
+    "name": "mUpSoundClip",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#mUpSoundClip",
+    "access": "public",
+    "description": null,
+    "lineNumber": 15,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 178,
+    "kind": "member",
+    "name": "mOnPointerUp",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#mOnPointerUp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 179,
+    "kind": "member",
+    "name": "mOnPointerDown",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#mOnPointerDown",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 180,
+    "kind": "method",
+    "name": "onAdded",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#onAdded",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [
+      {
+        "name": "gameObject",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 183,
+    "kind": "method",
+    "name": "onRemoved",
+    "memberof": "src/Input/SoundButton.js~SoundButton",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Input/SoundButton.js~SoundButton#onRemoved",
+    "access": "public",
+    "description": null,
+    "lineNumber": 31,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 184,
+    "kind": "file",
+    "name": "src/Input/index.js",
+    "content": "import DomInteraction from './DomInteraction'\nimport MinimalInteractiveArea from './MinimalInteractiveArea'\nimport NativeInteraction from './NativeInteraction'\nimport ScaleButton from './ScaleButton'\nimport SoundButton from './SoundButton'\n\nexport { default as DomInteraction } from './DomInteraction'\nexport { default as MinimalInteractiveArea } from './MinimalInteractiveArea'\nexport { default as NativeInteraction } from './NativeInteraction'\nexport { default as ScaleButton } from './ScaleButton'\nexport { default as SoundButton } from './SoundButton'\n\nexport default {\n  DomInteraction,\n  MinimalInteractiveArea,\n  NativeInteraction,\n  ScaleButton,\n  SoundButton,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Input/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 185,
+    "kind": "file",
+    "name": "src/Layer.js",
+    "content": "// WARNING: All this layers are used internally, don't use them directly.\nexport default {\n  // place hidden DOMs, like hidden <video>\n  DOM_DISPLAY_HIDDEN: -1,\n  // place DOMs, like <video>\n  DOM_DISPLAY: 1,\n  // place canvas of black\n  CANVAS: 2,\n  // place DOMs for interaction purpose\n  DOM_INTERACTION: 3,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Layer.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 186,
+    "kind": "file",
+    "name": "src/Scene.js",
+    "content": "import { DisplayObject } from 'black-engine'\n\n/**\n * Scene is abstraction built on DisplayObject.\n *\n * @example\n * // Scene is just a normal DisplayObject in Black Engine.\n * class Playground extends Scene {\n *   onAdded() {\n *     // ...\n *   }\n * }\n *\n * @example\n * // If you wanna extend Scene's constructor, please make sure `super(name)`\n * // is called. Because attribute `name` is required by SceneManager.\n * class Playground extends Scene {\n *   constructor(name) {\n *     super(name)\n *\n *     this.toggle = true\n *   }\n * }\n */\nclass Scene extends DisplayObject {\n  /**\n   * constructor\n   * @param {string} name name of scene\n   */\n  constructor(name) {\n    super()\n\n    this.name = name\n  }\n}\n\nexport default Scene\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/Scene.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 187,
+    "kind": "class",
+    "name": "Scene",
+    "memberof": "src/Scene.js",
+    "static": true,
+    "longname": "src/Scene.js~Scene",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/Scene.js",
+    "importStyle": "Scene",
+    "description": "Scene is abstraction built on DisplayObject.",
+    "examples": [
+      "// Scene is just a normal DisplayObject in Black Engine.\nclass Playground extends Scene {\n  onAdded() {\n    // ...\n  }\n}",
+      "// If you wanna extend Scene's constructor, please make sure `super(name)`\n// is called. Because attribute `name` is required by SceneManager.\nclass Playground extends Scene {\n  constructor(name) {\n    super(name)\n\n    this.toggle = true\n  }\n}"
+    ],
+    "lineNumber": 25,
+    "interface": false,
+    "extends": [
+      "black-engine~DisplayObject"
+    ]
+  },
+  {
+    "__docId__": 188,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Scene.js~Scene",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Scene.js~Scene#constructor",
+    "access": "public",
+    "description": "constructor",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "name of scene"
+      }
+    ]
+  },
+  {
+    "__docId__": 189,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/Scene.js~Scene",
+    "static": false,
+    "longname": "src/Scene.js~Scene#name",
+    "access": "public",
+    "description": null,
+    "lineNumber": 33,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 190,
+    "kind": "file",
+    "name": "src/SceneManager.js",
+    "content": "import { Black, Tween } from 'black-engine'\n\n/**\n * Manager of Scenes.\n *\n * @example\n * // default instance of SceneManager.\n * const { default: sceneManager } = SceneManager\n *\n * // register scenes\n * sceneManager.register('preloader', Preloader)\n * sceneManager.register('playground', Playground)\n *\n * class Game extends GameObject {\n *   constructor() {\n *     super()\n *     sceneManager.load('preloader')\n *   }\n * }\n *\n * class Preloader extends Scene {\n *   onAdded() {\n *     // ...\n *     sceneManager.load('playground')\n *   }\n * }\n *\n * class Playground extends Scene {\n *   onAdded() {\n *     // ...\n *   }\n * }\n */\nclass SceneManager {\n  constructor() {\n    /**\n     * Store all registered scenes.\n     * @access private\n     */\n    this.availableScenes = []\n\n    /**\n     * Store all loaded scenes.\n     * @access private\n     */\n    this.activeScenes = []\n  }\n\n  /**\n   * Register a scene.\n   * @param {string} name name of scene\n   * @param {Scene} Class subclass of {@link Scene}\n   */\n  register(name, Class) {\n    this.availableScenes.push({\n      name,\n      Class,\n    })\n  }\n\n  /**\n   * Load scene which is already registered. This method will remove all scenes\n   * which aren't sticky.\n   *\n   * @param {string} name name of scene\n   * @param {Object} [options]\n   * @param {boolean} [options.sticky=false] scene will not be removed unless\n   *                                         you unload it explicitly\n   * @param {boolean} [options.transition=true] enable transition when switching\n   *                                            scene\n   * @param {number} [options.transitionTime=1] transition's duration, unit in\n   *                                            seconds\n   */\n  load(name, { sticky = false, transition = true, transitionTime = 1 } = {}) {\n    this.cleanup()\n    const scene = this.availableScenes.find(s => s.name === name)\n\n    const { Class, name: $name } = scene\n    const activeScene = new Class($name)\n    activeScene.sticky = sticky\n\n    this.activeScenes.push(activeScene)\n\n    if (transition) {\n      // a simple transition\n      activeScene.alpha = 0\n      activeScene.add(new Tween({ alpha: 1 }, transitionTime))\n    }\n\n    Black.stage.addChild(activeScene)\n  }\n\n  /**\n   * Cleanup useless actived scenes\n   * @access private\n   */\n  cleanup() {\n    this.activeScenes = this.activeScenes.filter(scene => {\n      if (scene.sticky) {\n        return true\n      } else {\n        Black.stage.removeChild(scene)\n        return false\n      }\n    })\n  }\n\n  /**\n   * Unload a scene by name explicitly.\n   * @param {string} name name of scene\n   */\n  unload(name) {\n    const index = this.activeScenes.findIndex(s => s.name === name)\n    if (index >= 0) {\n      const scene = this.activeScenes[index]\n      Black.stage.removeChild(scene)\n      this.activeScenes.splice(index, 1)\n    }\n  }\n\n  /**\n   * Find a loaded scene by name.\n   * @param {string} name name of a loaded scene\n   */\n  find(name) {\n    const scene = this.activeScenes.find(s => s.name === name)\n    return scene\n  }\n}\n\nSceneManager.default = new SceneManager()\n\nexport default SceneManager\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/SceneManager.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 191,
+    "kind": "class",
+    "name": "SceneManager",
+    "memberof": "src/SceneManager.js",
+    "static": true,
+    "longname": "src/SceneManager.js~SceneManager",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/SceneManager.js",
+    "importStyle": "SceneManager",
+    "description": "Manager of Scenes.",
+    "examples": [
+      "// default instance of SceneManager.\nconst { default: sceneManager } = SceneManager\n\n// register scenes\nsceneManager.register('preloader', Preloader)\nsceneManager.register('playground', Playground)\n\nclass Game extends GameObject {\n  constructor() {\n    super()\n    sceneManager.load('preloader')\n  }\n}\n\nclass Preloader extends Scene {\n  onAdded() {\n    // ...\n    sceneManager.load('playground')\n  }\n}\n\nclass Playground extends Scene {\n  onAdded() {\n    // ...\n  }\n}"
+    ],
+    "lineNumber": 34,
+    "interface": false
+  },
+  {
+    "__docId__": 192,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 35,
+    "undocument": true
+  },
+  {
+    "__docId__": 193,
+    "kind": "member",
+    "name": "availableScenes",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#availableScenes",
+    "access": "private",
+    "description": "Store all registered scenes.",
+    "lineNumber": 40,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 194,
+    "kind": "member",
+    "name": "activeScenes",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#activeScenes",
+    "access": "private",
+    "description": "Store all loaded scenes.",
+    "lineNumber": 46,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 195,
+    "kind": "method",
+    "name": "register",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#register",
+    "access": "public",
+    "description": "Register a scene.",
+    "lineNumber": 54,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "name of scene"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Scene"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "Class",
+        "description": "subclass of {@link Scene}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 196,
+    "kind": "method",
+    "name": "load",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#load",
+    "access": "public",
+    "description": "Load scene which is already registered. This method will remove all scenes\nwhich aren't sticky.",
+    "lineNumber": 74,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "name of scene"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "options",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "false",
+        "defaultRaw": false,
+        "name": "options.sticky",
+        "description": "scene will not be removed unless\n                                        you unload it explicitly"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "true",
+        "defaultRaw": true,
+        "name": "options.transition",
+        "description": "enable transition when switching\n                                           scene"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "1",
+        "defaultRaw": 1,
+        "name": "options.transitionTime",
+        "description": "transition's duration, unit in\n                                           seconds"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 197,
+    "kind": "method",
+    "name": "cleanup",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#cleanup",
+    "access": "private",
+    "description": "Cleanup useless actived scenes",
+    "lineNumber": 97,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 199,
+    "kind": "method",
+    "name": "unload",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#unload",
+    "access": "public",
+    "description": "Unload a scene by name explicitly.",
+    "lineNumber": 112,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "name of scene"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 200,
+    "kind": "method",
+    "name": "find",
+    "memberof": "src/SceneManager.js~SceneManager",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/SceneManager.js~SceneManager#find",
+    "access": "public",
+    "description": "Find a loaded scene by name.",
+    "lineNumber": 125,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "name of a loaded scene"
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 201,
+    "kind": "file",
+    "name": "src/helper/dom.js",
+    "content": "/**\n * Transform DOM with given matrix.\n *\n * @param {DOM} dom\n * @param {Matrix} matrix\n */\nexport function transformDOM(dom, matrix) {\n  const {\n    data: [a, b, c, d, tx, ty],\n  } = matrix\n\n  const transform = `matrix(${a}, ${b}, ${c}, ${d}, ${tx}, ${ty})`\n  const transformOrigin = '0 0 0'\n\n  dom.style.transform = transform\n  dom.style.transformOrigin = transformOrigin\n\n  dom.style.webkitTransform = transform\n  dom.style.webkitTransformOrigin = transformOrigin\n}\n\nexport default {\n  transformDOM,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/helper/dom.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 202,
+    "kind": "function",
+    "name": "transformDOM",
+    "memberof": "src/helper/dom.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/helper/dom.js~transformDOM",
+    "access": "public",
+    "export": true,
+    "importPath": "@m31271n/black-box/src/helper/dom.js",
+    "importStyle": "{transformDOM}",
+    "description": "Transform DOM with given matrix.",
+    "lineNumber": 7,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "DOM"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "dom",
+        "description": ""
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Matrix"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "matrix",
+        "description": ""
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 203,
+    "kind": "file",
+    "name": "src/helper/index.js",
+    "content": "import dom from './dom'\n\nexport { default as dom } from './dom'\n\nexport default {\n  dom,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/helper/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 204,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import Animation from './Animation'\nimport AssetManager from './AssetManager'\nimport Debug from './Debug'\nimport Display from './Display'\nimport Input from './Input'\nimport Layer from './Layer'\nimport Scene from './Scene'\nimport SceneManager from './SceneManager'\nimport helper from './helper'\n\nexport { default as Animation } from './Animation'\nexport { default as AssetManager } from './AssetManager'\nexport { default as Debug } from './Debug'\nexport { default as Display } from './Display'\nexport { default as Input } from './Input'\nexport { default as Layer } from './Layer'\nexport { default as Scene } from './Scene'\nexport { default as SceneManager } from './SceneManager'\nexport { default as helper } from './helper'\n\nexport default {\n  Animation,\n  AssetManager,\n  Debug,\n  Display,\n  Input,\n  Layer,\n  Scene,\n  SceneManager,\n  helper,\n}\n",
+    "static": true,
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "kind": "index",
+    "content": "# black-box\n\n[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)\n[![Dependency Status](https://img.shields.io/david/m31271n/black-box.svg)](#)\n[![DevDependency Status](https://img.shields.io/david/m31271n/black-box.svg)](#)\n[![NPM Downloads](https://img.shields.io/npm/dm/@m31271n/black-box.svg)](#)\n\n> Toolbox for [Black Engine](https://github.com/MassiveHeights/Black).\n\n## Dependencies\n\nThis package is published as ES6 module currently, you need to use Babel or other transpilers.\n\nMoreover, if you use `Debug/Console` you also need `@babel/plugin-syntax-dynamic-import`.\n\n## Install\n\n```\n$ npm install @m31271n/black-box\n```\n\n## Usage\n\n```js\n// examples\nimport { SceneManager, Scene } from 'black-box'\nimport { Fade } from 'black-box/Animation'\n\n// or specific module directly\nimport Fade from 'black-box/Animation/Fade'\n```\n\n## License\n\n[MIT](https://stack.m31271n.com/licenses/MIT.txt) © [m31271n](https://stack.m31271n.com)\n",
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"@m31271n/black-box\",\n  \"version\": \"0.6.3\",\n  \"description\": \"Toolbox for Black Engine.\",\n  \"license\": \"MIT\",\n  \"repository\": \"m31271n/black-box\",\n  \"author\": {\n    \"name\": \"m31271n\",\n    \"email\": \"m31271n@pm.me\",\n    \"url\": \"stack.m31271n.com\"\n  },\n  \"engines\": {\n    \"node\": \">=8\"\n  },\n  \"scripts\": {\n    \"precommit\": \"lint-staged\",\n    \"lint\": \"eslint 'src/**/*.js' 'test/**/*.js'\",\n    \"doc\": \"npm run update-index && esdoc\",\n    \"test\": \"ava\",\n    \"code-quality\": \"npm run lint && npm run test\",\n    \"cleanup\": \"rm -rf dist\",\n    \"update-index\": \"./scripts/update-index.js\",\n    \"copy-files\": \"mkdir -p dist && cp -r src/* package.json README.md LICENSE dist/\",\n    \"build\": \"npm run cleanup && npm run update-index && npm run copy-files\",\n    \"release\": \"npm run code-quality && npm run build && cd dist/ && npm publish\"\n  },\n  \"files\": [\n    \"**/*\"\n  ],\n  \"main\": \"index.js\",\n  \"keywords\": [\n    \"\"\n  ],\n  \"dependencies\": {\n    \"black-engine\": \"https://github.com/MassiveHeights/Black.git#v0.6.x-dev\",\n    \"vconsole\": \"^3.2.0\"\n  },\n  \"devDependencies\": {\n    \"ava\": \"^0.25.0\",\n    \"babel-eslint\": \"^10.0.1\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.2.0\",\n    \"eslint-config-prettier\": \"^2.9.0\",\n    \"eslint-plugin-ava\": \"^5.0.0\",\n    \"eslint-plugin-node\": \"^7.0.1\",\n    \"eslint-plugin-prettier\": \"^2.6.0\",\n    \"husky\": \"^0.14.3\",\n    \"lint-staged\": \"^7.0.4\",\n    \"prettier\": \"^1.11.1\"\n  },\n  \"lint-staged\": {\n    \"linters\": {\n      \"**/*.{json,md}\": [\n        \"prettier --write\",\n        \"git add\"\n      ],\n      \"**/*.js\": [\n        \"prettier --write\",\n        \"eslint\",\n        \"git add\"\n      ]\n    }\n  }\n}\n",
+    "longname": "/Users/m31271n/_BASTION_/git/m31271n/black-box/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

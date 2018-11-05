@@ -7,11 +7,9 @@
 
 > Toolbox for [Black Engine](https://github.com/MassiveHeights/Black).
 
-## Dependencies
+## WARNING
 
 This package is published as ES6 module currently, you need to use Babel or other transpilers.
-
-Moreover, if you use `Debug/Console` you also need `@babel/plugin-syntax-dynamic-import`.
 
 ## Install
 
@@ -22,7 +20,6 @@ $ npm install @m31271n/black-box
 ## Usage
 
 ```js
-// examples
 import { SceneManager, Scene } from 'black-box'
 import { Fade } from 'black-box/Animation'
 

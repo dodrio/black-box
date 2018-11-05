@@ -1,12 +1,24 @@
 import { Tween as $Tween } from 'black-engine'
 
-// Add complete() for origin Tween
+/**
+ * Extended version of Tween provided by Black Engine.
+ */
 class Tween extends $Tween {
+  /**
+   * @ignore
+   */
   constructor(...args) {
     super(...args)
+
+    /**
+     * @access private
+     */
     this.mIsCompleted = false
   }
 
+  /**
+   * @ignore
+   */
   onAdded(gameObject) {
     this.on('complete', () => {
       this.mIsCompleted = true
@@ -15,6 +27,9 @@ class Tween extends $Tween {
     super.onAdded(gameObject)
   }
 
+  /**
+   * @return {Promise} It will be resolved when current tween is completed.
+   */
   complete() {
     return new Promise(resolve => {
       if (this.mIsCompleted) {

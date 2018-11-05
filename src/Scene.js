@@ -1,7 +1,7 @@
 import { DisplayObject } from 'black-engine'
 
 /**
- * A Scene contains the environments and menus of your game.
+ * Scene is abstraction built on DisplayObject.
  *
  * @example
  * // Scene is just a normal DisplayObject in Black Engine.

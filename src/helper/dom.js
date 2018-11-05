@@ -1,3 +1,9 @@
+/**
+ * Transform DOM with given matrix.
+ *
+ * @param {DOM} dom
+ * @param {Matrix} matrix
+ */
 export function transformDOM(dom, matrix) {
   const {
     data: [a, b, c, d, tx, ty],

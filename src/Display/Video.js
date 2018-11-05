@@ -2,24 +2,89 @@ import { Black, GameObject } from 'black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 
+/**
+ * Video player based on HTML5 `<video>` tag.
+ *
+ * @example
+ * const url = 'https://url/to/video'
+ * const video = new Video(url, {
+ *   width: 750,
+ *   height: 1500,
+ * })
+ *
+ * class Theater extends Scene {
+ *   onAdded() {
+ *     this.addChild(video)
+ *   }
+ * }
+ */
 class Video extends GameObject {
-  constructor(src, { id, width, height, loop = false, hide = false } = {}) {
+  /**
+   * @param {string} src='' url of video
+   * @param {Object} options
+   * @param {string} [options.id=''] id of video
+   * @param {number} [options.width=640] width of video
+   * @param {number} [options.height=320] height of video
+   * @param {boolean} [options.loop=false] enable loop
+   * @param {boolean} [options.hide=false] hide video after creating it
+   */
+  constructor(
+    src,
+    { id = '', width = 640, height = 320, loop = false, hide = false } = {}
+  ) {
     super()
 
+    /**
+     * @ignore
+     */
     this.mSrc = src
+    /**
+     * @ignore
+     */
     this.mId = id
+    /**
+     * @ignore
+     */
     this.mWidth = width
+    /**
+     * @ignore
+     */
     this.mHeight = height
+    /**
+     * @ignore
+     */
     this.mLoop = loop
+    /**
+     * @ignore
+     */
     this.mHide = hide
 
+    /**
+     * @ignore
+     */
     this.mVideo = this.createVideoDOM()
+    /**
+     * @ignore
+     */
     this.mContainer = null
+    /**
+     * @ignore
+     */
     this.mPreplayPromise = null
+    /**
+     * @ignore
+     */
     this.mReady = false
+    /**
+     * @ignore
+     */
     this.mReadyTime = 0
   }
 
+  /**
+   * Create video DOM.
+   * @access private
+   */
   createVideoDOM() {
     const video = document.createElement('video')
     video.src = this.mSrc
@@ -53,6 +118,9 @@ class Video extends GameObject {
     return video
   }
 
+  /**
+   * @ignore
+   */
   onAdded() {
     const { containerElement } = Black.instance
     this.mContainer = containerElement
@@ -61,6 +129,10 @@ class Video extends GameObject {
     this.transformVideo()
 
     video.addEventListener('ended', this.onEnd)
+
+    /**
+     * @ignore
+     */
     this.resizeListener = Black.instance.stage.on(
       'resize',
       this.transformVideo,
@@ -70,6 +142,36 @@ class Video extends GameObject {
     this.mContainer.appendChild(video)
   }
 
+  /**
+   * @ignore
+   * @emits {end}
+   */
+  onEnd = () => {
+    this.post('end')
+  }
+
+  /**
+   * Resize and position current video DOM according stage's setting.
+   * @access private
+   */
+  transformVideo() {
+    const { localTransformation: matrix } = Black.instance.stage
+    transformDOM(this.mVideo, matrix)
+  }
+
+  /**
+   * @ignore
+   *
+   * @emits {progress}
+   */
+  onUpdate() {
+    const { currentTime } = this.mVideo
+    this.post('progress', { currentTime })
+  }
+
+  /**
+   * @ignore
+   */
   onRemoved() {
     const { mVideo: video } = this
     if (!video) return
@@ -80,13 +182,10 @@ class Video extends GameObject {
     this.mContainer.removeChild(video)
   }
 
-  transformVideo() {
-    const { localTransformation: matrix } = Black.instance.stage
-    transformDOM(this.mVideo, matrix)
-  }
-
   /**
-   * Unlock video
+   * Unlock current video.
+   *
+   * @see https://stackoverflow.com/a/50480115/1793548
    */
   unlock() {
     const { mVideo: video } = this
@@ -98,9 +197,15 @@ class Video extends GameObject {
   }
 
   /**
-   * There are following reasons to play video beforehand:
+   * Play current video.
+   *
+   * This method will preplay video beforehand. There are following reasons to
+   * do this:
    * 1. solve the blinking problem when playing video on Android devices.
    * 2. fetch metadata of video in advance, such as `duration`.
+   *
+   * @emits {play}
+   * @return {Promise} same as DOM API - `play()`
    */
   play() {
     const { mVideo: video } = this
@@ -131,35 +236,50 @@ class Video extends GameObject {
     return this.mPreplayPromise
   }
 
+  /**
+   * Pause current video.
+   *
+   * @emits {pause}
+   * @return {Promise} same as DOM API - `pause()`
+   */
   pause() {
     this.post('pause')
     return this.mVideo.pause()
   }
 
+  /**
+   * Reset current video's timeline.
+   *
+   * @emits {reset}
+   */
   reset() {
     this.post('reset')
     this.mVideo.currentTime = this.mReadyTime
   }
 
-  onEnd = () => {
-    this.post('end')
-  }
-
+  /**
+   * Show current video.
+   *
+   * @emits {show}
+   */
   show() {
     this.mVideo.style.zIndex = Layer.DOM_DISPLAY
     this.post('show')
   }
 
+  /**
+   * Hide current video.
+   *
+   * @emits {hide}
+   */
   hide() {
     this.mVideo.style.zIndex = Layer.DOM_DISPLAY_HIDDEN
     this.post('hide')
   }
 
-  onUpdate() {
-    const { currentTime } = this.mVideo
-    this.post('progress', { currentTime })
-  }
-
+  /**
+   * Get duration of current video.
+   */
   get duration() {
     return this.mVideo.duration
   }

@@ -1,3 +1,6 @@
+/**
+ * Eases which are not provided by Black Engine.
+ */
 class Ease {
   // swipe
   static outQuint(t) {

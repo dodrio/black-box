@@ -1,6 +1,16 @@
 import { Component, Graphics, GameObject } from 'black-engine'
 
+/**
+ * Add visible bounds for an existing GameObject.
+ *
+ * @example
+ * const bounds = new Bounds()
+ * gameObject.addComponent(bounds)
+ */
 class Bounds extends Component {
+  /**
+   * @ignore
+   */
   onAdded(gameObject) {
     const { parent } = gameObject
 
@@ -16,6 +26,9 @@ class Bounds extends Component {
     this.placeIndicator()
   }
 
+  /**
+   * @ignore
+   */
   onRemoved() {
     this.topLeft.removeFromParent()
     this.topRight.removeFromParent()
@@ -23,10 +36,16 @@ class Bounds extends Component {
     this.bottomRight.removeFromParent()
   }
 
+  /**
+   * @ignore
+   */
   onUpdate() {
     this.placeIndicator()
   }
 
+  /**
+   * @ignore
+   */
   placeIndicator() {
     // get the bounds relative to sprite's parent with all children
     const bounds = this.gameObject.getBounds(null, true)
@@ -41,6 +60,9 @@ class Bounds extends Component {
     this.bottomRight.y = bottom
   }
 
+  /**
+   * @ignore
+   */
   makeIndicator(rotation = 0) {
     const color = 0xf9b626
     const cross = new GameObject()

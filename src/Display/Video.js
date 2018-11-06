@@ -111,14 +111,14 @@ class Video extends GameObject {
     // WebKit-based browser adaptation
     video.setAttribute('webkit-playsinline', '')
 
-    // QQ Browser
+    // QQ Browser on iOS
     const ua =
       window && window.navigator && window.navigator.userAgent
         ? window.navigator.userAgent
         : ''
-    // eslint-disable-next-line
-    const QQ_BROWSER_UA_PATTERN = /m?(qqbrowser)[\/\s]?([\w\.]+)/i
-    if (QQ_BROWSER_UA_PATTERN.test(ua)) {
+    const IOS_PATTERN = /ip[honead]{2,4}(?:.*os\s([\w]+)\slike\smac|;\sopera)/i
+    const QQ_BROWSER_UA_PATTERN = /m?(qqbrowser)[\/\s]?([\w\.]+)/i // eslint-disable-line
+    if (IOS_PATTERN.test(ua) && QQ_BROWSER_UA_PATTERN.test(ua)) {
       video.setAttribute('x5-playsinline', '')
     }
 

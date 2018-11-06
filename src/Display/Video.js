@@ -112,8 +112,15 @@ class Video extends GameObject {
     video.setAttribute('webkit-playsinline', '')
 
     // QQ Browser
-    video.setAttribute('x5-playsinline', '')
-    // video.setAttribute('x5-video-player-type', 'h5')
+    const ua =
+      window && window.navigator && window.navigator.userAgent
+        ? window.navigator.userAgent
+        : ''
+    // eslint-disable-next-line
+    const QQ_BROWSER_UA_PATTERN = /m?(qqbrowser)[\/\s]?([\w\.]+)/i
+    if (QQ_BROWSER_UA_PATTERN.test(ua)) {
+      video.setAttribute('x5-playsinline', '')
+    }
 
     return video
   }

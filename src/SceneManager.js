@@ -1,4 +1,6 @@
 import { Black, Tween } from 'black-engine'
+import { queryObject } from './helper/querystring'
+import classname from './helper/classname'
 
 /**
  * Manager of Scenes.
@@ -70,10 +72,20 @@ class SceneManager {
    *                                            scene
    * @param {number} [options.transitionTime=1] transition's duration, unit in
    *                                            seconds
+   * @return {boolean} load is done or not
    */
   load(name, { sticky = false, transition = true, transitionTime = 1 } = {}) {
     this.cleanup()
     const scene = this.availableScenes.find(s => s.name === name)
+    if (!scene) {
+      if (name) {
+        // eslint-disable-next-line
+        console.error(
+          `[${classname(this)}] failed to load unregistered scene - ${name}`
+        )
+      }
+      return false
+    }
 
     const { Class, name: $name } = scene
     const activeScene = new Class($name)
@@ -88,6 +100,16 @@ class SceneManager {
     }
 
     Black.stage.addChild(activeScene)
+    return true
+  }
+
+  /**
+   * Load scene according `scene` field in querystring
+   */
+  qsload() {
+    const qo = queryObject()
+    const { scene: name } = qo
+    return this.load(name)
   }
 
   /**

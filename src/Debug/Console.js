@@ -1,3 +1,5 @@
+import { queryObject } from '../helper/querystring'
+
 /**
  * Load vConsole according querystring. When specified pattern is found in
  * querystring, vConsole will be enabled.
@@ -8,10 +10,12 @@
  */
 class Console {
   /**
-   * @param {RegExp} [pattern=/debug/] pattern will be searched
+   * @param {string} [field='debug'] field will be searched in querystring
    */
-  constructor(pattern = /debug/) {
-    if (pattern.test(location.search)) {
+  constructor(field = 'debug') {
+    const qo = queryObject()
+    const hasField = qo[field] !== undefined
+    if (hasField) {
       import('vconsole').then(({ default: VConsole }) => {
         new VConsole()
       })

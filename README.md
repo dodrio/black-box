@@ -17,11 +17,11 @@ $ npm install @m31271n/black-box
 ## Usage
 
 ```js
-import { SceneManager, Scene } from 'black-box'
-import { Fade } from 'black-box/Animation'
+import { SceneManager, Scene } from '@m31271n/black-box'
+import { Fade } from '@m31271n/black-box/Animation'
 
 // or specific module directly
-import Fade from 'black-box/Animation/Fade'
+import Fade from '@m31271n/black-box/Animation/Fade'
 ```
 
 ## License

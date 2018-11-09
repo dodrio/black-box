@@ -20,8 +20,9 @@
     "code-quality": "npm run lint && npm run test",
     "cleanup": "rm -rf dist",
     "update-index": "./scripts/update-index.js",
-    "copy-files": "mkdir -p dist && cp -r src/* package.json README.md LICENSE dist/",
-    "build": "npm run cleanup && npm run update-index && npm run copy-files",
+    "transpile": "babel src -d dist",
+    "copy-files": "mkdir -p dist && cp -r package.json README.md LICENSE dist/",
+    "build": "npm run cleanup && npm run update-index && npm run transpile && npm run copy-files",
     "release": "npm run code-quality && npm run build && cd dist/ && npm publish"
   },
   "files": [
@@ -37,6 +38,11 @@
     "vconsole": "^3.2.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
     "ava": "^0.25.0",
     "babel-eslint": "^10.0.1",
     "esdoc": "^1.1.0",

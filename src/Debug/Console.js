@@ -4,8 +4,6 @@ import { queryObject } from '../helper/querystring'
  * Load vConsole according querystring. When specified pattern is found in
  * querystring, vConsole will be enabled.
  *
- * WARNING: If you are using Babel, you need to enable @babel/plugin-syntax-dynamic-import.
- *
  * @see https://github.com/Tencent/vConsole
  */
 class Console {

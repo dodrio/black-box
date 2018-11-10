@@ -8,21 +8,7 @@
 
 > Toolbox for [Black Engine](https://github.com/MassiveHeights/Black).
 
-## Install
-
-```
-$ npm install @m31271n/black-box
-```
-
-## Usage
-
-```js
-import { SceneManager, Scene } from '@m31271n/black-box'
-import { Fade } from '@m31271n/black-box/Animation'
-
-// or specific module directly
-import Fade from '@m31271n/black-box/Animation/Fade'
-```
+UNSTABLE WARNING: this package is still in development.
 
 ## License
 

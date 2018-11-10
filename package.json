@@ -1,14 +1,9 @@
 {
-  "name": "@m31271n/black-box",
+  "name": "@2players/black-box",
   "version": "0.7.1",
   "description": "Toolbox for Black Engine.",
   "license": "MIT",
-  "repository": "m31271n/black-box",
-  "author": {
-    "name": "m31271n",
-    "email": "m31271n@pm.me",
-    "url": "stack.m31271n.com"
-  },
+  "repository": "2players/black-box",
   "engines": {
     "node": ">=8"
   },
@@ -35,7 +30,7 @@
     "toolbox"
   ],
   "dependencies": {
-    "black-engine": "https://github.com/MassiveHeights/Black.git#v0.6.x-dev",
+    "black-engine": "https://github.com/2players/black-engine.git#dev",
     "qs": "^6.5.2",
     "vconsole": "^3.2.0"
   },

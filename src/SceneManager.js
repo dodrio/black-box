@@ -75,7 +75,6 @@ class SceneManager {
    * @return {boolean} load is done or not
    */
   load(name, { sticky = false, transition = true, transitionTime = 1 } = {}) {
-    this.cleanup()
     const scene = this.availableScenes.find(s => s.name === name)
     if (!scene) {
       if (name) {
@@ -86,6 +85,8 @@ class SceneManager {
       }
       return false
     }
+
+    this.cleanup()
 
     const { Class, name: $name } = scene
     const activeScene = new Class($name)

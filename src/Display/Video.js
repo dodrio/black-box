@@ -194,10 +194,10 @@ class Video extends GameObject {
    *
    * @see https://stackoverflow.com/a/50480115/1793548
    */
-  unlock() {
+  async unlock() {
     const { mVideo: video } = this
     const { paused: isPausedBeforeUnlock } = video
-    video.play()
+    await video.play()
     if (isPausedBeforeUnlock) {
       video.pause()
     }

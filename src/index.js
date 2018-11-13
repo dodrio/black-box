@@ -6,6 +6,7 @@ import Input from './Input'
 import Layer from './Layer'
 import Scene from './Scene'
 import SceneManager from './SceneManager'
+import Utils from './Utils'
 import helper from './helper'
 
 export { default as Animation } from './Animation'
@@ -16,6 +17,7 @@ export { default as Input } from './Input'
 export { default as Layer } from './Layer'
 export { default as Scene } from './Scene'
 export { default as SceneManager } from './SceneManager'
+export { default as Utils } from './Utils'
 export { default as helper } from './helper'
 
 export default {
@@ -27,5 +29,6 @@ export default {
   Layer,
   Scene,
   SceneManager,
+  Utils,
   helper,
 }

@@ -1,16 +1,15 @@
 import { Black, Graphics } from 'black-engine'
 
 class Mask extends Graphics {
-  constructor({ x = 0, y = 0, alpha = 0.6, color = 0x000000 } = {}) {
+  constructor({ x = 0, y = 0, color = 0x000000 } = {}) {
     super()
 
     this.beginPath()
     const { width, height } = Black.stage
     this.rect(x, y, width, height)
-    this.fillStyle(color, alpha)
+    this.fillStyle(color, 1)
     this.fill()
     this.stroke()
-    this.alignAnchor()
   }
 }
 

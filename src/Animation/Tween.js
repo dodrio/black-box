@@ -14,6 +14,28 @@ class Tween extends $Tween {
      * @access private
      */
     this.mIsCompleted = false
+
+    /**
+     * @access private
+     */
+    this.mValuesCache = []
+  }
+
+  /**
+   * Queue a new values to be tweened.
+   *
+   * @example
+   * const tween = new Tween({ x: 200 }, 0.2, {
+   *   removeOnComplete: false,
+   * })
+   *
+   * gameObject.addComponent(tween)
+   *
+   * tween.serial({ x: 300 })
+   * tween.serial({ x: 450 })
+   */
+  serial(values) {
+    this.mValuesCache.push(values)
   }
 
   /**
@@ -25,6 +47,19 @@ class Tween extends $Tween {
     })
 
     super.onAdded(gameObject)
+  }
+
+  /**
+   * @ignore
+   */
+  onUpdate() {
+    if (!this.isPlaying && this.mValuesCache.length > 0) {
+      const values = this.mValuesCache.splice(0, 1)[0]
+      const { duration } = this
+      this.to(values, duration).play()
+    }
+
+    super.onUpdate()
   }
 
   /**

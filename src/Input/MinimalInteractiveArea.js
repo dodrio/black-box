@@ -1,4 +1,4 @@
-import { Component, Graphics } from 'black-engine'
+import { Component, Graphics } from '@2players/black-engine'
 
 /*
  * This component adds a rectangle to small elements in order to make clicking

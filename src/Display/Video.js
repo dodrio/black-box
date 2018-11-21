@@ -1,4 +1,4 @@
-import { Black, GameObject } from 'black-engine'
+import { Black, GameObject } from '@2players/black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 

@@ -1,4 +1,4 @@
-import { Black, Component } from 'black-engine'
+import { Black, Component } from '@2players/black-engine'
 import Layer from '../Layer'
 import { transformDOM } from '../helper/dom'
 

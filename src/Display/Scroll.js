@@ -5,7 +5,7 @@ import {
   InputComponent,
   Tween,
   Time,
-} from 'black-engine'
+} from '@2players/black-engine'
 import { Ease } from '../Animation'
 import classname from '../helper/classname'
 

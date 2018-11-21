@@ -1,4 +1,4 @@
-import { Component } from 'black-engine'
+import { Component } from '@2players/black-engine'
 
 class ScaleButton extends Component {
   constructor(scale = 0.95) {

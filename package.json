@@ -30,8 +30,8 @@
     "toolbox"
   ],
   "dependencies": {
+    "@2players/black-engine": "https://github.com/2players/black-engine.git#20181121-1",
     "@m31271n/random-number": "^1.0.0",
-    "black-engine": "https://github.com/2players/black-engine.git#dev",
     "qs": "^6.5.2",
     "vconsole": "^3.2.0"
   },

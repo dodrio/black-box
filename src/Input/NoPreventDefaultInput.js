@@ -1,4 +1,4 @@
-import { Input } from 'black-engine'
+import { Input } from '@2players/black-engine'
 
 /**
  * Black Engine's default Input without `Event.preventDefault`

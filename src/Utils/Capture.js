@@ -1,4 +1,9 @@
-import { Black, Device, GameObject, CanvasRenderTexture } from 'black-engine'
+import {
+  Black,
+  Device,
+  GameObject,
+  CanvasRenderTexture,
+} from '@2players/black-engine'
 import classname from '../helper/classname'
 
 /**

@@ -1,4 +1,4 @@
-import { AssetManager as $AssetManager } from 'black-engine'
+import { AssetManager as $AssetManager } from '@2players/black-engine'
 
 /**
  * Extended version of AssetManager provided by Black Engine.

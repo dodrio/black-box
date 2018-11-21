@@ -1,4 +1,4 @@
-import { Component, Graphics, GameObject } from 'black-engine'
+import { Component, Graphics, GameObject } from '@2players/black-engine'
 
 /**
  * Add visible bounds for an existing GameObject.

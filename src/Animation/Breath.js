@@ -1,4 +1,4 @@
-import { Tween, Ease } from 'black-engine'
+import { Tween, Ease } from '@2players/black-engine'
 
 /**
  * A common animation - breath.

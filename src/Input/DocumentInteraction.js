@@ -1,4 +1,4 @@
-import { Component } from 'black-engine'
+import { Component } from '@2players/black-engine'
 
 class DocumentInteraction extends Component {
   constructor(callback, { events = ['touchend', 'click'], once = false } = {}) {

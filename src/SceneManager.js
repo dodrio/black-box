@@ -1,4 +1,4 @@
-import { Black, Tween } from 'black-engine'
+import { Black, Tween } from '@2players/black-engine'
 import { queryObject } from './helper/querystring'
 import classname from './helper/classname'
 

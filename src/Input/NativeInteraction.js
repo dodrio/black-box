@@ -1,4 +1,4 @@
-import { Component, GameObject, Input } from 'black-engine'
+import { Component, GameObject, Input } from '@2players/black-engine'
 
 class NativeInteraction extends Component {
   constructor(callback, { events = ['touchend'] } = {}) {

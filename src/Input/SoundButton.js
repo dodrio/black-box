@@ -1,4 +1,4 @@
-import { AssetManager, Component } from 'black-engine'
+import { AssetManager, Component } from '@2players/black-engine'
 
 const { default: defaultAssetManager } = AssetManager
 

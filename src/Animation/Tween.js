@@ -1,4 +1,4 @@
-import { Tween as $Tween } from 'black-engine'
+import { Tween as $Tween } from '@2players/black-engine'
 
 /**
  * Extended version of Tween provided by Black Engine.

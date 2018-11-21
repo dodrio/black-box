@@ -1,4 +1,4 @@
-import { Component } from 'black-engine'
+import { Component } from '@2players/black-engine'
 import random from '@m31271n/random-number'
 
 /**

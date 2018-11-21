@@ -1,4 +1,4 @@
-import { Black, Graphics } from 'black-engine'
+import { Black, Graphics } from '@2players/black-engine'
 
 class Mask extends Graphics {
   constructor({ x = 0, y = 0, color = 0x000000 } = {}) {

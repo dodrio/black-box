@@ -1,4 +1,4 @@
-import { Component, Tween, Ease } from 'black-engine'
+import { Component, Tween, Ease } from '@2players/black-engine'
 
 class Wave extends Component {
   constructor({ x, duration = 2 } = {}) {

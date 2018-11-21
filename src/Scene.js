@@ -1,4 +1,4 @@
-import { DisplayObject } from 'black-engine'
+import { DisplayObject } from '@2players/black-engine'
 
 /**
  * Scene is abstraction built on DisplayObject.

@@ -18,7 +18,7 @@ import { transformDOM } from '../helper/dom'
  *   }
  * }
  */
-class Video extends GameObject {
+class HTML5Video extends GameObject {
   /**
    * @param {string} src='' url of video
    * @param {Object} options
@@ -283,6 +283,13 @@ class Video extends GameObject {
   }
 
   /**
+   * Get duration of current video.
+   */
+  get duration() {
+    return this.mVideo.duration
+  }
+
+  /**
    * Show current video.
    *
    * @emits {show}
@@ -301,13 +308,6 @@ class Video extends GameObject {
     this.mVideo.style.zIndex = Layer.DOM_DISPLAY_HIDDEN
     this.post('hide')
   }
-
-  /**
-   * Get duration of current video.
-   */
-  get duration() {
-    return this.mVideo.duration
-  }
 }
 
-export default Video
+export default HTML5Video

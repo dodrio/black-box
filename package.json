@@ -71,6 +71,9 @@
         "eslint",
         "git add"
       ]
-    }
+    },
+    "ignore": [
+      "vendor/*.js"
+    ]
   }
 }
